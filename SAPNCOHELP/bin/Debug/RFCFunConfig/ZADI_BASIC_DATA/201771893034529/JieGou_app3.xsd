@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="Tables" xmlns:mstns="Tables" xmlns="Tables" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app3="Tables" xmlns:app2="String" xmlns:app5="IM" xmlns:app6="EX" xmlns:app4="STRING" xmlns:app1="EXT">
+  <xs:import namespace="EXT" schemaLocation="JieGou_app1.xsd" />
+  <xs:import namespace="STRING" schemaLocation="JieGou_app4.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app6.xsd" />
+  <xs:import namespace="IM" schemaLocation="JieGou_app5.xsd" />
+  <xs:import namespace="String" schemaLocation="JieGou_app2.xsd" />
+  <xs:element name="ET_DATA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="app2:NAME" minOccurs="0" />
+        <xs:element ref="app2:VALUE" minOccurs="0" />
+        <xs:element ref="app2:ZKEY" minOccurs="0" />
+        <xs:element ref="app2:ZKEYTXT" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IT_DATA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="app4:ZKEY" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

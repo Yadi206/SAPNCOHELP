@@ -1,0 +1,59 @@
+<?xml version="1.0" standalone="yes"?>
+<ZMMI_DB_ZWLXX_READ>
+  <IMS.IM_SEARCH xmlns="IMS">
+    <ZDH xmlns="STRING">4500002264</ZDH>
+    <CHECH xml:space="preserve" xmlns="STRING"> </CHECH>
+    <ZBFBH xml:space="preserve" xmlns="STRING"> </ZBFBH>
+  </IMS.IM_SEARCH>
+  <ET_ZWLXX xmlns="Tables">
+    <EBELN xmlns="String">4500002264</EBELN>
+    <EBELP xmlns="String">00020</EBELP>
+    <LIFNR xmlns="String">0001000220</LIFNR>
+    <NAME1 xmlns="String">中化化肥有限公司</NAME1>
+    <EKGRP xmlns="String">105</EKGRP>
+    <EKNAM xmlns="String">物资供应部-硫磺资源采购组</EKNAM>
+    <BSART xmlns="String">NB</BSART>
+    <ZDH xmlns="String">4500002264</ZDH>
+    <POSNR xmlns="String">00020</POSNR>
+    <MATNR xmlns="String">1000214</MATNR>
+    <MAKTX xmlns="String">硫磺（1）</MAKTX>
+    <MEINS xmlns="String">TO</MEINS>
+    <WERKS xmlns="String">1007</WERKS>
+    <NAME2 xmlns="String">硫酸厂</NAME2>
+    <LGORT xmlns="String">3000</LGORT>
+    <LGOBE xmlns="String">硫酸厂原辅料仓库</LGOBE>
+    <MENGE1 xmlns="String">12.000</MENGE1>
+    <MENGE2 xmlns="String">0.000</MENGE2>
+    <MENGE3 xmlns="String">0.000</MENGE3>
+    <DUAND xmlns="String" />
+    <TFLAG xmlns="String" />
+    <CHECH xmlns="String" />
+    <CHENYR xmlns="String" />
+    <SHENFZ xmlns="String" />
+    <LIANXFS xmlns="String" />
+    <BZ xmlns="String" />
+    <DFBZ xmlns="String">0.000</DFBZ>
+    <DFDS xmlns="String">0.000</DFDS>
+    <DAIS xmlns="String">0.000</DAIS>
+    <DAIS_ZL xmlns="String">0.000</DAIS_ZL>
+    <BUKRS xmlns="String">1000</BUKRS>
+    <ZCHUAN1 xmlns="String" />
+    <ZCZ1 xmlns="String">0.000</ZCZ1>
+    <ZCHUAN2 xmlns="String" />
+    <ZCZ2 xmlns="String">0.000</ZCZ2>
+    <ZCHUAN3 xmlns="String" />
+    <ZCZ3 xmlns="String">0.000</ZCZ3>
+  </ET_ZWLXX>
+  <传出参数:dtIM xmlns:传出参数="EX">
+    <Code xmlns="EX">EM_RTMSG</Code>
+    <Name xmlns="EX">消息文本</Name>
+    <Value xmlns="EX">点击赋值</Value>
+    <remarks xmlns="EX" />
+  </传出参数:dtIM>
+  <传出参数:dtIM xmlns:传出参数="EX">
+    <Code xmlns="EX">EM_RTYPE</Code>
+    <Name xmlns="EX">消息类型: S 成功,E 错误,W 警告,I 信息,A 中断</Name>
+    <Value xmlns="EX">点击赋值</Value>
+    <remarks xmlns="EX" />
+  </传出参数:dtIM>
+</ZMMI_DB_ZWLXX_READ>

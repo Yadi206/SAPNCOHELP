@@ -1,0 +1,59 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="Tables" xmlns:mstns="Tables" xmlns="Tables" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app1="Tables" xmlns:app3="EX" xmlns:app2="IM">
+  <xs:import namespace="IM" schemaLocation="JieGou_app2.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app3.xsd" />
+  <xs:element name="ET_LIPS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="BLDAT" msdata:Caption="凭证中的凭证日期" type="xs:string" minOccurs="0" />
+        <xs:element name="KUNNR" msdata:Caption="送达方" type="xs:string" minOccurs="0" />
+        <xs:element name="NAME1" msdata:Caption="送达方名称" type="xs:string" minOccurs="0" />
+        <xs:element name="VSTEL" msdata:Caption="装运点/接收点" type="xs:string" minOccurs="0" />
+        <xs:element name="VTEXT" msdata:Caption="描述" type="xs:string" minOccurs="0" />
+        <xs:element name="KUNAG" msdata:Caption="售达方" type="xs:string" minOccurs="0" />
+        <xs:element name="NAME2" msdata:Caption="售达方名称" type="xs:string" minOccurs="0" />
+        <xs:element name="VKORG" msdata:Caption="销售组织" type="xs:string" minOccurs="0" />
+        <xs:element name="VBELN" msdata:Caption="交货" type="xs:string" minOccurs="0" />
+        <xs:element name="POSNR" msdata:Caption="交货项目" type="xs:string" minOccurs="0" />
+        <xs:element name="MATNR" msdata:Caption="物料号" type="xs:string" minOccurs="0" />
+        <xs:element name="ARKTX" msdata:Caption="销售订单项目短文本" type="xs:string" minOccurs="0" />
+        <xs:element name="WERKS" msdata:Caption="工厂" type="xs:string" minOccurs="0" />
+        <xs:element name="LGORT" msdata:Caption="库存地点" type="xs:string" minOccurs="0" />
+        <xs:element name="LFIMG" msdata:Caption="实际已交货量（按销售单位）" type="xs:string" minOccurs="0" />
+        <xs:element name="VRKME" msdata:Caption="销售单位" type="xs:string" minOccurs="0" />
+        <xs:element name="VGBEL" msdata:Caption="参考单据的单据编号" type="xs:string" minOccurs="0" />
+        <xs:element name="VGPOS" msdata:Caption="参考项目的项目号" type="xs:string" minOccurs="0" />
+        <xs:element name="VTWEG" msdata:Caption="分销渠道" type="xs:string" minOccurs="0" />
+        <xs:element name="SPART" msdata:Caption="产品组" type="xs:string" minOccurs="0" />
+        <xs:element name="BWART" msdata:Caption="移动类型（库存管理）" type="xs:string" minOccurs="0" />
+        <xs:element name="AUART" msdata:Caption="销售凭证类型" type="xs:string" minOccurs="0" />
+        <xs:element name="BEZEI20" msdata:Caption="描述" type="xs:string" minOccurs="0" />
+        <xs:element name="BSTNK" msdata:Caption="客户采购订单编号" type="xs:string" minOccurs="0" />
+        <xs:element name="AUGRU" msdata:Caption="订购原因( 业务原因 )" type="xs:string" minOccurs="0" />
+        <xs:element name="BEZEI40" msdata:Caption="描述" type="xs:string" minOccurs="0" />
+        <xs:element name="VKGRP" msdata:Caption="销售组" type="xs:string" minOccurs="0" />
+        <xs:element name="VKGRT" msdata:Caption="销售组描述" type="xs:string" minOccurs="0" />
+        <xs:element name="FEIB" msdata:Caption="非标详细说明(源于SMS,取自表ZWMS_DLV_INF)" type="xs:string" minOccurs="0" />
+        <xs:element name="XMMC" msdata:Caption="项目名称(源于SMS,取自表ZWMS_DLV_INF)" type="xs:string" minOccurs="0" />
+        <xs:element name="FYFS" msdata:Caption="发运方式(源于SMS,取自表ZWMS_DLV_INF)" type="xs:string" minOccurs="0" />
+        <xs:element name="FYCDF" msdata:Caption="费用承担方(源于SMS,取自表ZWMS_DLV_INF)" type="xs:string" minOccurs="0" />
+        <xs:element name="XXDZ" msdata:Caption="详细地址(源于SMS,取自表ZWMS_DLV_INF)" type="xs:string" minOccurs="0" />
+        <xs:element name="SHR" msdata:Caption="收货人(源于SMS,取自表ZWMS_DLV_INF)" type="xs:string" minOccurs="0" />
+        <xs:element name="LXDH" msdata:Caption="联系电话(源于SMS,取自表ZWMS_DLV_INF)" type="xs:string" minOccurs="0" />
+        <xs:element name="FHSJ" msdata:Caption="发货时间(源于SMS,取自表ZWMS_DLV_INF)" type="xs:string" minOccurs="0" />
+        <xs:element name="DHSJ" msdata:Caption="到货时间(源于SMS,取自表ZWMS_DLV_INF)" type="xs:string" minOccurs="0" />
+        <xs:element name="THYY" msdata:Caption="退货原因(源于SMS,取自表ZWMS_GD_RETURN)" type="xs:string" minOccurs="0" />
+        <xs:element name="THRQ" msdata:Caption="退货日期(源于SMS,取自表ZWMS_GD_RETURN)" type="xs:string" minOccurs="0" />
+        <xs:element name="FHSQH" msdata:Caption="发货申请号(源于SMS,取自表ZWMS_DLV_INF)" type="xs:string" minOccurs="0" />
+        <xs:element name="BEIZHU" msdata:Caption="备注(源于SMS,取自表ZWMS_DLV_INF)" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IT_AUART">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="AUART" msdata:Caption="销售凭证类型" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

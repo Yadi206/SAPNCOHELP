@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="EXT" xmlns:mstns="EXT" xmlns="EXT" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app1="EXT" xmlns:app3="Tables" xmlns:app4="IM" xmlns:app5="EX" xmlns:app2="STRING">
+  <xs:import namespace="STRING" schemaLocation="JieGou_app2.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app5.xsd" />
+  <xs:import namespace="IM" schemaLocation="JieGou_app4.xsd" />
+  <xs:import namespace="Tables" schemaLocation="JieGou_app3.xsd" />
+  <xs:element name="EXT.JHJG">
+    <xs:complexType>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EXT.RTMSG">
+    <xs:complexType>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EXT.RTYPE">
+    <xs:complexType>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EXT.SJJG">
+    <xs:complexType>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

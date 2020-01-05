@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="ZRFC_PP_GETBOMLOCATION" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:app1="Tables" xmlns:app2="IM" xmlns:app3="EX">
+  <xs:import namespace="Tables" schemaLocation="JieGou_app1.xsd" />
+  <xs:import namespace="IM" schemaLocation="JieGou_app2.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app3.xsd" />
+  <xs:element name="ZRFC_PP_GETBOMLOCATION" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="app1:T_BOM" />
+        <xs:element ref="app2:IM" />
+        <xs:element ref="app3:dtIM" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

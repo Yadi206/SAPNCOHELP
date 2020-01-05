@@ -1,0 +1,75 @@
+<?xml version="1.0" standalone="yes"?>
+<ZWMS_BOM>
+  <T_HEADER xmlns="Tables">
+    <WERKS>4233</WERKS>
+    <MATNR>000000001140009101</MATNR>
+    <VERID />
+    <LOEKZ />
+  </T_HEADER>
+  <T_HEADER xmlns="Tables">
+    <WERKS>4233</WERKS>
+    <MATNR>000000001020023701</MATNR>
+    <VERID />
+    <LOEKZ />
+  </T_HEADER>
+  <T_HEADER xmlns="Tables">
+    <WERKS>4233</WERKS>
+    <MATNR>PLM1103001</MATNR>
+    <VERID />
+    <LOEKZ />
+  </T_HEADER>
+  <T_HEADER xmlns="Tables">
+    <WERKS>4233</WERKS>
+    <MATNR>000000001330000201</MATNR>
+    <VERID />
+    <LOEKZ />
+  </T_HEADER>
+  <T_HEADER xmlns="Tables">
+    <WERKS>4200</WERKS>
+    <MATNR>1140009101</MATNR>
+    <VERID />
+    <LOEKZ />
+  </T_HEADER>
+  <T_HEADER xmlns="Tables">
+    <WERKS>4233</WERKS>
+    <MATNR>1140009101</MATNR>
+    <VERID />
+    <LOEKZ />
+  </T_HEADER>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">I_MATNR</Code>
+    <Name xmlns="IM">物料号</Name>
+    <Value xmlns="IM">000000001010002101</Value>
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">I_STLAL</Code>
+    <Name xmlns="IM">可选的 BOM</Name>
+    <Value xmlns="IM" />
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">I_STLAN</Code>
+    <Name xmlns="IM">BOM 用途</Name>
+    <Value xmlns="IM" />
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">I_WERKS</Code>
+    <Name xmlns="IM">工厂</Name>
+    <Value xmlns="IM" />
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传出参数:dtIM xmlns:传出参数="EX">
+    <Code xmlns="EX">RTMSG</Code>
+    <Name xmlns="EX">消息文本</Name>
+    <Value xmlns="EX">查询成功</Value>
+    <remarks xmlns="EX" />
+  </传出参数:dtIM>
+  <传出参数:dtIM xmlns:传出参数="EX">
+    <Code xmlns="EX">RTYPE</Code>
+    <Name xmlns="EX">消息类型: S 成功,E 错误,W 警告,I 信息,A 中断</Name>
+    <Value xmlns="EX">S</Value>
+    <remarks xmlns="EX" />
+  </传出参数:dtIM>
+</ZWMS_BOM>

@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="Tables" xmlns:mstns="Tables" xmlns="Tables" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app1="Tables" xmlns:app3="EX" xmlns:app2="IM">
+  <xs:import namespace="IM" schemaLocation="JieGou_app2.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app3.xsd" />
+  <xs:element name="ERROR_RETURN">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="RTYPE" msdata:Caption="消息类型: S 成功,E 错误,W 警告,I 信息,A 中断" type="xs:string" minOccurs="0" />
+        <xs:element name="RTMSG" msdata:Caption="消息文本" type="xs:string" minOccurs="0" />
+        <xs:element name="MATNR" msdata:Caption="物料号" type="xs:string" minOccurs="0" />
+        <xs:element name="MAKTX" msdata:Caption="物料描述（短文本）" type="xs:string" minOccurs="0" />
+        <xs:element name="XUQIU" msdata:Caption="需求数量" type="xs:string" minOccurs="0" />
+        <xs:element name="LABST" msdata:Caption="非限制使用的估价的库存" type="xs:string" minOccurs="0" />
+        <xs:element name="DUANQ" msdata:Caption="短缺数量" type="xs:string" minOccurs="0" />
+        <xs:element name="MEINS" msdata:Caption="基本计量单位" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="ZTEST01" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:app1="EXS" xmlns:app2="IMS" xmlns:app3="IM" xmlns:app4="EX">
+  <xs:import namespace="IMS" schemaLocation="JieGou_app2.xsd" />
+  <xs:import namespace="EXS" schemaLocation="JieGou_app1.xsd" />
+  <xs:import namespace="IM" schemaLocation="JieGou_app3.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app4.xsd" />
+  <xs:element name="ZTEST01" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="app1:MAKT" />
+        <xs:element ref="app2:HYDLINES" />
+        <xs:element ref="app2:MAKT1" />
+        <xs:element ref="app2:MAKT2" />
+        <xs:element ref="app2:MAKT3" />
+        <xs:element ref="app3:IM" />
+        <xs:element ref="app4:dtIM" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

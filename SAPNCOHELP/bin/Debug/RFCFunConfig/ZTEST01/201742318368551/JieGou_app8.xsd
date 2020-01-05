@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="IMT" xmlns:mstns="IMT" xmlns="IMT" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app8="IMT" xmlns:app1="STRING" xmlns:app4="TABLE" xmlns:app12="IMS.HYDLINES.ZHYDLINE" xmlns:app9="IM" xmlns:app11="IMS.HYDLINES.ZHYDLINET" xmlns:app5="STRUCTURE" xmlns:app10="EX" xmlns:app7="IMS" xmlns:app3="EXS.RZHYDLINES" xmlns:app6="IMS.HYDLINES" xmlns:app2="EXS">
+  <xs:import namespace="EXS" schemaLocation="JieGou_app2.xsd" />
+  <xs:import namespace="IMS.HYDLINES" schemaLocation="JieGou_app6.xsd" />
+  <xs:import namespace="EXS.RZHYDLINES" schemaLocation="JieGou_app3.xsd" />
+  <xs:import namespace="IMS" schemaLocation="JieGou_app7.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app10.xsd" />
+  <xs:import namespace="STRUCTURE" schemaLocation="JieGou_app5.xsd" />
+  <xs:import namespace="IMS.HYDLINES.ZHYDLINET" schemaLocation="JieGou_app11.xsd" />
+  <xs:import namespace="IM" schemaLocation="JieGou_app9.xsd" />
+  <xs:import namespace="IMS.HYDLINES.ZHYDLINE" schemaLocation="JieGou_app12.xsd" />
+  <xs:import namespace="TABLE" schemaLocation="JieGou_app4.xsd" />
+  <xs:import namespace="STRING" schemaLocation="JieGou_app1.xsd" />
+  <xs:element name="IMT.HYDLINET">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="app1:MATNR" minOccurs="0" />
+        <xs:element ref="app1:ERSDA" minOccurs="0" />
+        <xs:element ref="app1:MEINS" minOccurs="0" />
+        <xs:element ref="app1:BLANZ" minOccurs="0" />
+        <xs:element ref="app1:BRGEW" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

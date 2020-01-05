@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes"?>
+<ZOA_GETBZDKC>
+  <EXS.T_TAB xmlns="EXS">
+    <MATNR xmlns="STRING" />
+    <MAKTX xmlns="STRING" />
+    <BCKC xmlns="STRING">0.000</BCKC>
+    <QTCKC xmlns="STRING">0.000</QTCKC>
+    <BCZJKC xmlns="STRING">0.000</BCZJKC>
+    <QTCZJKC xmlns="STRING">0.000</QTCZJKC>
+    <ZBSBCKC xmlns="STRING">0.000</ZBSBCKC>
+    <SDSBCKC xmlns="STRING">0.000</SDSBCKC>
+    <ZBSBZJKC xmlns="STRING">0.000</ZBSBZJKC>
+    <SDSBZJKC xmlns="STRING">0.000</SDSBZJKC>
+  </EXS.T_TAB>
+  <EXS.Z_RETURN xmlns="EXS">
+    <RTYPE xmlns="STRING">S</RTYPE>
+    <RTMSG xmlns="STRING">成功</RTMSG>
+  </EXS.Z_RETURN>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">MATNR</Code>
+    <Name xmlns="IM">物料编号</Name>
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">WERKS</Code>
+    <Name xmlns="IM">工厂</Name>
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+</ZOA_GETBZDKC>

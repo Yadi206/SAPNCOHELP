@@ -1,0 +1,77 @@
+c:\users\yadi\documents\visual studio 2010\Projects\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.exe.config
+c:\users\yadi\documents\visual studio 2010\Projects\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.exe
+c:\users\yadi\documents\visual studio 2010\Projects\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.pdb
+c:\users\yadi\documents\visual studio 2010\Projects\SAPNCOHELP\SAPNCOHELP\bin\Debug\sapnco.dll
+c:\users\yadi\documents\visual studio 2010\Projects\SAPNCOHELP\SAPNCOHELP\bin\Debug\sapnco_utils.dll
+c:\users\yadi\documents\visual studio 2010\Projects\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.exe
+c:\users\yadi\documents\visual studio 2010\Projects\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.pdb
+c:\users\yadi\documents\visual studio 2010\Projects\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.Form1.resources
+c:\users\yadi\documents\visual studio 2010\Projects\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.csproj.GenerateResource.Cache
+c:\users\yadi\documents\visual studio 2010\Projects\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.csprojResolveAssemblyReference.cache
+C:\Users\YaDi\documents\visual studio 2010\Projects\SAPNCOHELP\SAPNCOHELP\obj\Debug\CDataGridView.resources
+C:\Users\YaDi\documents\visual studio 2010\Projects\SAPNCOHELP\SAPNCOHELP\obj\Debug\WTiaoJianChuangKou.resources
+C:\Users\YaDi\documents\visual studio 2010\Projects\SAPNCOHELP\SAPNCOHELP\obj\Debug\CWaitForm.resources
+C:\Users\YaDi\documents\visual studio 2010\Projects\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.Properties.Resources.resources
+D:\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.exe.config
+D:\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.exe
+D:\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.pdb
+D:\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.exe
+D:\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.pdb
+D:\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.csprojResolveAssemblyReference.cache
+D:\SAPNCOHELP\SAPNCOHELP\obj\Debug\CDataGridView.resources
+D:\SAPNCOHELP\SAPNCOHELP\obj\Debug\CWaitForm.resources
+D:\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.Form1.resources
+D:\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.Properties.Resources.resources
+D:\SAPNCOHELP\SAPNCOHELP\obj\Debug\WTiaoJianChuangKou.resources
+D:\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.csproj.GenerateResource.Cache
+D:\SAPNCOHELP\SAPNCOHELP\obj\Debug\FullTable.resources
+D:\40学习\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.exe
+D:\40学习\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.pdb
+D:\40学习\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.exe
+D:\40学习\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.pdb
+D:\40学习\SAPNCOHELP\SAPNCOHELP\obj\Debug\CDataGridView.resources
+D:\40学习\SAPNCOHELP\SAPNCOHELP\obj\Debug\CWaitForm.resources
+D:\40学习\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.Form1.resources
+D:\40学习\SAPNCOHELP\SAPNCOHELP\obj\Debug\FullTable.resources
+D:\40学习\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.Properties.Resources.resources
+D:\40学习\SAPNCOHELP\SAPNCOHELP\obj\Debug\WTiaoJianChuangKou.resources
+D:\40学习\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.csproj.GenerateResource.Cache
+D:\40学习\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.csproj.ResolveComReference.cache
+D:\40学习\SAPNCOHELP\SAPNCOHELP\obj\Debug\LoginConfig.resources
+D:\40学习\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.exe.config
+D:\40学习\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.csprojResolveAssemblyReference.cache
+F:\YP\40.学习\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.exe.config
+F:\YP\40.学习\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.csproj.ResolveComReference.cache
+F:\YP\40.学习\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.exe
+F:\YP\40.学习\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.pdb
+F:\YP\40.学习\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.exe
+F:\YP\40.学习\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.pdb
+F:\YP\40.学习\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.csprojResolveAssemblyReference.cache
+F:\YP\40.学习\SAPNCOHELP\SAPNCOHELP\obj\Debug\CDataGridView.resources
+F:\YP\40.学习\SAPNCOHELP\SAPNCOHELP\obj\Debug\CWaitForm.resources
+F:\YP\40.学习\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.Form1.resources
+F:\YP\40.学习\SAPNCOHELP\SAPNCOHELP\obj\Debug\FullTable.resources
+F:\YP\40.学习\SAPNCOHELP\SAPNCOHELP\obj\Debug\LoginConfig.resources
+F:\YP\40.学习\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.Properties.Resources.resources
+F:\YP\40.学习\SAPNCOHELP\SAPNCOHELP\obj\Debug\WTiaoJianChuangKou.resources
+F:\YP\40.学习\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.csproj.GenerateResource.Cache
+D:\10.CODING\NET\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.exe.config
+D:\10.CODING\NET\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.csproj.ResolveComReference.cache
+D:\10.CODING\NET\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.exe
+D:\10.CODING\NET\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.pdb
+C:\CODING\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.csproj.ResolveComReference.cache
+C:\CODING\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.exe
+C:\CODING\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.pdb
+C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.exe
+C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.pdb
+C:\CODING\SAPNCOHELP\SAPNCOHELP\obj\Debug\ResolveAssemblyReference.cache
+C:\CODING\SAPNCOHELP\SAPNCOHELP\obj\Debug\CDataGridView.resources
+C:\CODING\SAPNCOHELP\SAPNCOHELP\obj\Debug\CWaitForm.resources
+C:\CODING\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.Form1.resources
+C:\CODING\SAPNCOHELP\SAPNCOHELP\obj\Debug\FullTable.resources
+C:\CODING\SAPNCOHELP\SAPNCOHELP\obj\Debug\LoginConfig.resources
+C:\CODING\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.Properties.Resources.resources
+C:\CODING\SAPNCOHELP\SAPNCOHELP\obj\Debug\WTiaoJianChuangKou.resources
+C:\CODING\SAPNCOHELP\SAPNCOHELP\obj\Debug\GenerateResource.read.1.tlog
+C:\CODING\SAPNCOHELP\SAPNCOHELP\obj\Debug\GenerateResource.write.1.tlog
+C:\CODING\SAPNCOHELP\SAPNCOHELP\obj\Debug\SAPNCOHELP.Saplogon.resources

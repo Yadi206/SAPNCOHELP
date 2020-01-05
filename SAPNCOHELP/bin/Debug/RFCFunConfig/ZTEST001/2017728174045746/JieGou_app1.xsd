@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="STRING" xmlns:mstns="STRING" xmlns="STRING" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app1="STRING" xmlns:app4="EX" xmlns:app3="IM" xmlns:app2="IMS">
+  <xs:import namespace="IMS" schemaLocation="JieGou_app2.xsd" />
+  <xs:import namespace="IM" schemaLocation="JieGou_app3.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app4.xsd" />
+  <xs:element name="MATNR" msdata:Caption="物料编号" type="xs:string" />
+  <xs:element name="MENGE" msdata:Caption="数量" type="xs:string" />
+</xs:schema>

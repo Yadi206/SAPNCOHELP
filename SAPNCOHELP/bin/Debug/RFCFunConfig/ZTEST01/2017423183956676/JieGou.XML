@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="ZTEST01" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:app1="STRING" xmlns:app2="EXS" xmlns:app3="EXS.RZHYDLINES" xmlns:app4="TABLE" xmlns:app5="STRUCTURE" xmlns:app6="IMS.HYDLINES" xmlns:app7="IMS" xmlns:app8="IMT" xmlns:app9="IM" xmlns:app10="EX" xmlns:app11="IMT.HYDLINET" xmlns:app12="IMS.HYDLINES.ZHYDLINET" xmlns:app13="IMS.HYDLINES.ZHYDLINE">
+  <xs:import namespace="EXS" schemaLocation="JieGou_app2.xsd" />
+  <xs:import namespace="IMS.HYDLINES" schemaLocation="JieGou_app6.xsd" />
+  <xs:import namespace="EXS.RZHYDLINES" schemaLocation="JieGou_app3.xsd" />
+  <xs:import namespace="IMS" schemaLocation="JieGou_app7.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app10.xsd" />
+  <xs:import namespace="STRUCTURE" schemaLocation="JieGou_app5.xsd" />
+  <xs:import namespace="IMS.HYDLINES.ZHYDLINET" schemaLocation="JieGou_app12.xsd" />
+  <xs:import namespace="IM" schemaLocation="JieGou_app9.xsd" />
+  <xs:import namespace="IMT.HYDLINET" schemaLocation="JieGou_app11.xsd" />
+  <xs:import namespace="IMS.HYDLINES.ZHYDLINE" schemaLocation="JieGou_app13.xsd" />
+  <xs:import namespace="TABLE" schemaLocation="JieGou_app4.xsd" />
+  <xs:import namespace="STRING" schemaLocation="JieGou_app1.xsd" />
+  <xs:import namespace="IMT" schemaLocation="JieGou_app8.xsd" />
+  <xs:element name="ZTEST01" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="app2:EXS.MAKT" />
+        <xs:element ref="app3:EXS.RZHYDLINES.ZHYDLINET" />
+        <xs:element ref="app3:EXS.RZHYDLINES.ZHYDLINE" />
+        <xs:element ref="app2:EXS.RZHYDLINES" />
+        <xs:element ref="app6:IMS.HYDLINES.ZHYDLINET" />
+        <xs:element ref="app6:IMS.HYDLINES.ZHYDLINE" />
+        <xs:element ref="app7:IMS.HYDLINES" />
+        <xs:element ref="app8:IMT.HYDLINET" />
+        <xs:element ref="app7:IMS.MAKT1" />
+        <xs:element ref="app7:IMS.MAKT2" />
+        <xs:element ref="app7:IMS.MAKT3" />
+        <xs:element ref="app9:IM" />
+        <xs:element ref="app10:dtIM" />
+        <xs:element ref="app11:IMT.HYDLINET_x005B_R1_x002C_C3_x005D_" />
+        <xs:element ref="app12:IMS.HYDLINES.ZHYDLINET_x005B_R1_x002C_C1_x005D_" />
+        <xs:element ref="app13:IMS.HYDLINES.ZHYDLINE_x005B_R1_x002C_C2_x005D_" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

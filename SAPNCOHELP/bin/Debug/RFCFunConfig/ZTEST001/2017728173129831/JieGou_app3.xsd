@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="Tables" xmlns:mstns="Tables" xmlns="Tables" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app3="Tables" xmlns:app2="IMS" xmlns:app4="IM" xmlns:app1="STRING" xmlns:app5="EX">
+  <xs:import namespace="EX" schemaLocation="JieGou_app5.xsd" />
+  <xs:import namespace="STRING" schemaLocation="JieGou_app1.xsd" />
+  <xs:import namespace="IM" schemaLocation="JieGou_app4.xsd" />
+  <xs:import namespace="IMS" schemaLocation="JieGou_app2.xsd" />
+  <xs:element name="MAKTTAB">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="app1:MANDT" minOccurs="0" />
+        <xs:element ref="app1:MATNR" minOccurs="0" />
+        <xs:element ref="app1:SPRAS" minOccurs="0" />
+        <xs:element ref="app1:MAKTX" minOccurs="0" />
+        <xs:element ref="app1:MAKTG" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,52 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="Tables" xmlns:mstns="Tables" xmlns="Tables" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app5="Tables" xmlns:app4="String" xmlns:app3="IMS" xmlns:app6="IM" xmlns:app7="EX" xmlns:app2="STRING" xmlns:app1="EXT">
+  <xs:import namespace="EXT" schemaLocation="JieGou_app1.xsd" />
+  <xs:import namespace="STRING" schemaLocation="JieGou_app2.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app7.xsd" />
+  <xs:import namespace="IM" schemaLocation="JieGou_app6.xsd" />
+  <xs:import namespace="IMS" schemaLocation="JieGou_app3.xsd" />
+  <xs:import namespace="String" schemaLocation="JieGou_app4.xsd" />
+  <xs:element name="ET_ZWLXX">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="app4:EBELN" minOccurs="0" />
+        <xs:element ref="app4:EBELP" minOccurs="0" />
+        <xs:element ref="app4:LIFNR" minOccurs="0" />
+        <xs:element ref="app4:NAME1" minOccurs="0" />
+        <xs:element ref="app4:EKGRP" minOccurs="0" />
+        <xs:element ref="app4:EKNAM" minOccurs="0" />
+        <xs:element ref="app4:BSART" minOccurs="0" />
+        <xs:element ref="app4:ZDH" minOccurs="0" />
+        <xs:element ref="app4:POSNR" minOccurs="0" />
+        <xs:element ref="app4:MATNR" minOccurs="0" />
+        <xs:element ref="app4:MAKTX" minOccurs="0" />
+        <xs:element ref="app4:MEINS" minOccurs="0" />
+        <xs:element ref="app4:WERKS" minOccurs="0" />
+        <xs:element ref="app4:NAME2" minOccurs="0" />
+        <xs:element ref="app4:LGORT" minOccurs="0" />
+        <xs:element ref="app4:LGOBE" minOccurs="0" />
+        <xs:element ref="app4:MENGE1" minOccurs="0" />
+        <xs:element ref="app4:MENGE2" minOccurs="0" />
+        <xs:element ref="app4:MENGE3" minOccurs="0" />
+        <xs:element ref="app4:DUAND" minOccurs="0" />
+        <xs:element ref="app4:TFLAG" minOccurs="0" />
+        <xs:element ref="app4:CHECH" minOccurs="0" />
+        <xs:element ref="app4:CHENYR" minOccurs="0" />
+        <xs:element ref="app4:SHENFZ" minOccurs="0" />
+        <xs:element ref="app4:LIANXFS" minOccurs="0" />
+        <xs:element ref="app4:BZ" minOccurs="0" />
+        <xs:element ref="app4:DFBZ" minOccurs="0" />
+        <xs:element ref="app4:DFDS" minOccurs="0" />
+        <xs:element ref="app4:DAIS" minOccurs="0" />
+        <xs:element ref="app4:DAIS_ZL" minOccurs="0" />
+        <xs:element ref="app4:BUKRS" minOccurs="0" />
+        <xs:element ref="app4:ZCHUAN1" minOccurs="0" />
+        <xs:element ref="app4:ZCZ1" minOccurs="0" />
+        <xs:element ref="app4:ZCHUAN2" minOccurs="0" />
+        <xs:element ref="app4:ZCZ2" minOccurs="0" />
+        <xs:element ref="app4:ZCHUAN3" minOccurs="0" />
+        <xs:element ref="app4:ZCZ3" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

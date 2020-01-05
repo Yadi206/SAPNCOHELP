@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<ZTEST001>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">MATNR</Code>
+    <Value xmlns="IM">1</Value>
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">MENGE</Code>
+    <Value xmlns="IM">134567890</Value>
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+</ZTEST001>

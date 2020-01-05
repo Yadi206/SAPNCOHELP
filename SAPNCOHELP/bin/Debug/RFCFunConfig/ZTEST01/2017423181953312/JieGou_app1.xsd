@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="STRING" xmlns:mstns="STRING" xmlns="STRING" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app1="STRING" xmlns:app4="TABLE" xmlns:app5="STRUCTURE" xmlns:app9="IM" xmlns:app6="IMS.HYDLINES" xmlns:app3="EXS.RZHYDLINES" xmlns:app2="EXS" xmlns:app7="IMS" xmlns:app10="EX" xmlns:app8="IMT">
+  <xs:import namespace="IMT" schemaLocation="JieGou_app8.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app10.xsd" />
+  <xs:import namespace="IMS" schemaLocation="JieGou_app7.xsd" />
+  <xs:import namespace="EXS" schemaLocation="JieGou_app2.xsd" />
+  <xs:import namespace="EXS.RZHYDLINES" schemaLocation="JieGou_app3.xsd" />
+  <xs:import namespace="IMS.HYDLINES" schemaLocation="JieGou_app6.xsd" />
+  <xs:import namespace="IM" schemaLocation="JieGou_app9.xsd" />
+  <xs:import namespace="STRUCTURE" schemaLocation="JieGou_app5.xsd" />
+  <xs:import namespace="TABLE" schemaLocation="JieGou_app4.xsd" />
+  <xs:element name="MANDT" msdata:Caption="客户端" type="xs:string" />
+  <xs:element name="MATNR" msdata:Caption="物料编号" type="xs:string" />
+  <xs:element name="SPRAS" msdata:Caption="语言代码" type="xs:string" />
+  <xs:element name="MAKTX" msdata:Caption="物料描述（短文本）" type="xs:string" />
+  <xs:element name="MAKTG" msdata:Caption="有关匹配码的大写的物料描述" type="xs:string" />
+  <xs:element name="ERSDA" type="xs:string" />
+  <xs:element name="MEINS" type="xs:string" />
+  <xs:element name="BLANZ" type="xs:string" />
+  <xs:element name="BRGEW" type="xs:string" />
+</xs:schema>

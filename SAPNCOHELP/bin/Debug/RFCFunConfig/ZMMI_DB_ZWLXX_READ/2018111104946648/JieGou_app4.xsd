@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="String" xmlns:mstns="String" xmlns="String" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app4="String" xmlns:app3="IMS" xmlns:app6="IM" xmlns:app7="EX" xmlns:app2="STRING" xmlns:app5="Tables" xmlns:app1="EXT">
+  <xs:import namespace="EXT" schemaLocation="JieGou_app1.xsd" />
+  <xs:import namespace="Tables" schemaLocation="JieGou_app5.xsd" />
+  <xs:import namespace="STRING" schemaLocation="JieGou_app2.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app7.xsd" />
+  <xs:import namespace="IM" schemaLocation="JieGou_app6.xsd" />
+  <xs:import namespace="IMS" schemaLocation="JieGou_app3.xsd" />
+  <xs:element name="EBELN" msdata:Caption="采购凭证编号" type="xs:string" />
+  <xs:element name="EBELP" msdata:Caption="采购凭证的项目编号" type="xs:string" />
+  <xs:element name="LIFNR" msdata:Caption="供应商或债权人的帐号" type="xs:string" />
+  <xs:element name="NAME1" msdata:Caption="名称" type="xs:string" />
+  <xs:element name="EKGRP" msdata:Caption="采购组" type="xs:string" />
+  <xs:element name="EKNAM" msdata:Caption="采购组的描述" type="xs:string" />
+  <xs:element name="BSART" msdata:Caption="订单类型（采购）" type="xs:string" />
+  <xs:element name="ZDH" msdata:Caption="单号" type="xs:string" />
+  <xs:element name="POSNR" msdata:Caption="采购凭证的项目编号" type="xs:string" />
+  <xs:element name="MATNR" msdata:Caption="物料编号" type="xs:string" />
+  <xs:element name="MAKTX" msdata:Caption="物料描述" type="xs:string" />
+  <xs:element name="MEINS" msdata:Caption="基本计量单位" type="xs:string" />
+  <xs:element name="WERKS" msdata:Caption="工厂" type="xs:string" />
+  <xs:element name="NAME2" msdata:Caption="名称" type="xs:string" />
+  <xs:element name="LGORT" msdata:Caption="库存地点" type="xs:string" />
+  <xs:element name="LGOBE" msdata:Caption="仓储地点的描述" type="xs:string" />
+  <xs:element name="MENGE1" msdata:Caption="数量" type="xs:string" />
+  <xs:element name="MENGE2" msdata:Caption="数量" type="xs:string" />
+  <xs:element name="MENGE3" msdata:Caption="数量" type="xs:string" />
+  <xs:element name="DUAND" msdata:Caption="短倒标识" type="xs:string" />
+  <xs:element name="TFLAG" msdata:Caption="退货标识" type="xs:string" />
+  <xs:element name="CHECH" msdata:Caption="车船号" type="xs:string" />
+  <xs:element name="CHENYR" msdata:Caption="承运人" type="xs:string" />
+  <xs:element name="SHENFZ" msdata:Caption="承运人身份证" type="xs:string" />
+  <xs:element name="LIANXFS" msdata:Caption="承运人联系方式" type="xs:string" />
+  <xs:element name="BZ" msdata:Caption="备注" type="xs:string" />
+  <xs:element name="DFBZ" msdata:Caption="对方磅重" type="xs:string" />
+  <xs:element name="DFDS" msdata:Caption="对方袋数" type="xs:string" />
+  <xs:element name="DAIS" msdata:Caption="袋数" type="xs:string" />
+  <xs:element name="DAIS_ZL" msdata:Caption="每袋重量" type="xs:string" />
+  <xs:element name="BUKRS" msdata:Caption="公司代码" type="xs:string" />
+  <xs:element name="ZCHUAN1" msdata:Caption="船号1" type="xs:string" />
+  <xs:element name="ZCZ1" msdata:Caption="船号1净重" type="xs:string" />
+  <xs:element name="ZCHUAN2" msdata:Caption="船号2" type="xs:string" />
+  <xs:element name="ZCZ2" msdata:Caption="船号2净重" type="xs:string" />
+  <xs:element name="ZCHUAN3" msdata:Caption="船号3" type="xs:string" />
+  <xs:element name="ZCZ3" msdata:Caption="船号3净重" type="xs:string" />
+</xs:schema>

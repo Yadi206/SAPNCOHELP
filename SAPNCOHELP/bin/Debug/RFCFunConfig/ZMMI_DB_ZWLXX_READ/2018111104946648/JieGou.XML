@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="ZMMI_DB_ZWLXX_READ" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:app1="EXT" xmlns:app2="STRING" xmlns:app3="IMS" xmlns:app4="String" xmlns:app5="Tables" xmlns:app6="IM" xmlns:app7="EX">
+  <xs:import namespace="EXT" schemaLocation="JieGou_app1.xsd" />
+  <xs:import namespace="Tables" schemaLocation="JieGou_app5.xsd" />
+  <xs:import namespace="STRING" schemaLocation="JieGou_app2.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app7.xsd" />
+  <xs:import namespace="IM" schemaLocation="JieGou_app6.xsd" />
+  <xs:import namespace="IMS" schemaLocation="JieGou_app3.xsd" />
+  <xs:import namespace="String" schemaLocation="JieGou_app4.xsd" />
+  <xs:element name="ZMMI_DB_ZWLXX_READ" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="app1:EXT.EM_RTMSG" />
+        <xs:element ref="app1:EXT.EM_RTYPE" />
+        <xs:element ref="app3:IMS.IM_SEARCH" />
+        <xs:element ref="app5:ET_ZWLXX" />
+        <xs:element ref="app6:IM" />
+        <xs:element ref="app7:dtIM" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

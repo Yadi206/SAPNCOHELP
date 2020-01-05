@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="EX" xmlns:mstns="EX" xmlns="EX" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app7="EX" xmlns:app4="String" xmlns:app3="IMS" xmlns:app6="IM" xmlns:app2="STRING" xmlns:app5="Tables" xmlns:app1="EXT">
+  <xs:import namespace="EXT" schemaLocation="JieGou_app1.xsd" />
+  <xs:import namespace="Tables" schemaLocation="JieGou_app5.xsd" />
+  <xs:import namespace="STRING" schemaLocation="JieGou_app2.xsd" />
+  <xs:import namespace="IM" schemaLocation="JieGou_app6.xsd" />
+  <xs:import namespace="IMS" schemaLocation="JieGou_app3.xsd" />
+  <xs:import namespace="String" schemaLocation="JieGou_app4.xsd" />
+  <xs:element name="dtIM" msdata:Prefix="传出参数">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Code" type="xs:string" minOccurs="0" />
+        <xs:element name="Name" type="xs:string" minOccurs="0" />
+        <xs:element name="Value" type="xs:string" minOccurs="0" />
+        <xs:element name="remarks" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

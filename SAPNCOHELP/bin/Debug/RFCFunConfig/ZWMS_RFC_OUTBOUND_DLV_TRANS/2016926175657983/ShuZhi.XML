@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<ZWMS_RFC_OUTBOUND_DLV_TRANS>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">EDATE</Code>
+    <Name xmlns="IM">终止日期</Name>
+    <Value xmlns="IM">20160801</Value>
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">SDATE</Code>
+    <Name xmlns="IM">开始日期</Name>
+    <Value xmlns="IM">20160923</Value>
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传出参数:dtIM xmlns:传出参数="EX">
+    <Code xmlns="EX">EMSG</Code>
+    <Name xmlns="EX">返回信息</Name>
+    <Value xmlns="EX">N:开始日期大于结束日期!</Value>
+    <remarks xmlns="EX" />
+  </传出参数:dtIM>
+</ZWMS_RFC_OUTBOUND_DLV_TRANS>

@@ -1,0 +1,80 @@
+<?xml version="1.0" standalone="yes"?>
+<ZTEST01>
+  <EXS.MAKT xmlns="EXS">
+    <MANDT xmlns="STRING">125</MANDT>
+    <MATNR xmlns="STRING">000000000000000001</MATNR>
+    <SPRAS xmlns="STRING">1</SPRAS>
+    <MAKTX xmlns="STRING">"二极管	
+01"</MAKTX>
+    <MAKTG xmlns="STRING">二极管01~SHICHENG</MAKTG>
+  </EXS.MAKT>
+  <EXS.RZHYDLINES xmlns="EXS">
+    <ZHYDLINET xmlns="TABLE">点击赋值</ZHYDLINET>
+    <ZHYDLINE xmlns="STRUCTURE">点击赋值</ZHYDLINE>
+  </EXS.RZHYDLINES>
+  <IMS.HYDLINES xmlns="IMS">
+    <ZHYDLINET xmlns="TABLE">点击赋值:2行</ZHYDLINET>
+    <ZHYDLINE xmlns="STRUCTURE">点击赋值:2行</ZHYDLINE>
+  </IMS.HYDLINES>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">HYDLINET</Code>
+    <Name xmlns="IM">ZHYDLINES</Name>
+    <Value xmlns="IM">点击赋值:3行</Value>
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">MATNR</Code>
+    <Name xmlns="IM">物料编号</Name>
+    <Value xmlns="IM">111</Value>
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <IMT.HYDLINET_x005B_R1_x002C_C3_x005D_ xmlns="IMT.HYDLINET">
+    <MATNR xmlns="STRING">1</MATNR>
+    <ERSDA xmlns="STRING">2</ERSDA>
+    <MEINS xmlns="STRING">3</MEINS>
+    <BLANZ xmlns="STRING">4</BLANZ>
+    <BRGEW xmlns="STRING">5</BRGEW>
+  </IMT.HYDLINET_x005B_R1_x002C_C3_x005D_>
+  <IMT.HYDLINET_x005B_R1_x002C_C3_x005D_ xmlns="IMT.HYDLINET">
+    <MATNR xmlns="STRING">1</MATNR>
+    <ERSDA xmlns="STRING">2</ERSDA>
+    <MEINS xmlns="STRING">3</MEINS>
+    <BLANZ xmlns="STRING">4</BLANZ>
+    <BRGEW xmlns="STRING">5</BRGEW>
+  </IMT.HYDLINET_x005B_R1_x002C_C3_x005D_>
+  <IMT.HYDLINET_x005B_R1_x002C_C3_x005D_ xmlns="IMT.HYDLINET">
+    <MATNR xmlns="STRING">1</MATNR>
+    <ERSDA xmlns="STRING">2</ERSDA>
+    <MEINS xmlns="STRING">3</MEINS>
+    <BLANZ xmlns="STRING">4</BLANZ>
+    <BRGEW xmlns="STRING">5</BRGEW>
+  </IMT.HYDLINET_x005B_R1_x002C_C3_x005D_>
+  <IMS.HYDLINES.ZHYDLINET_x005B_R1_x002C_C1_x005D_ xmlns="IMS.HYDLINES.ZHYDLINET">
+    <MATNR xmlns="STRING">1</MATNR>
+    <ERSDA xmlns="STRING">2</ERSDA>
+    <MEINS xmlns="STRING">3</MEINS>
+    <BLANZ xmlns="STRING">4</BLANZ>
+    <BRGEW xmlns="STRING">5</BRGEW>
+  </IMS.HYDLINES.ZHYDLINET_x005B_R1_x002C_C1_x005D_>
+  <IMS.HYDLINES.ZHYDLINET_x005B_R1_x002C_C1_x005D_ xmlns="IMS.HYDLINES.ZHYDLINET">
+    <MATNR xmlns="STRING">1</MATNR>
+    <ERSDA xmlns="STRING">2</ERSDA>
+    <MEINS xmlns="STRING">3</MEINS>
+    <BLANZ xmlns="STRING">4</BLANZ>
+    <BRGEW xmlns="STRING">5</BRGEW>
+  </IMS.HYDLINES.ZHYDLINET_x005B_R1_x002C_C1_x005D_>
+  <IMS.HYDLINES.ZHYDLINE_x005B_R1_x002C_C2_x005D_ xmlns="IMS.HYDLINES.ZHYDLINE">
+    <MATNR xmlns="STRING">1</MATNR>
+    <ERSDA xmlns="STRING">2</ERSDA>
+    <MEINS xmlns="STRING">3</MEINS>
+    <BLANZ xmlns="STRING">4</BLANZ>
+    <BRGEW xmlns="STRING">5</BRGEW>
+  </IMS.HYDLINES.ZHYDLINE_x005B_R1_x002C_C2_x005D_>
+  <IMS.HYDLINES.ZHYDLINE_x005B_R1_x002C_C2_x005D_ xmlns="IMS.HYDLINES.ZHYDLINE">
+    <MATNR xmlns="STRING">1</MATNR>
+    <ERSDA xmlns="STRING">2</ERSDA>
+    <MEINS xmlns="STRING">3</MEINS>
+    <BLANZ xmlns="STRING">4</BLANZ>
+    <BRGEW xmlns="STRING">5</BRGEW>
+  </IMS.HYDLINES.ZHYDLINE_x005B_R1_x002C_C2_x005D_>
+</ZTEST01>

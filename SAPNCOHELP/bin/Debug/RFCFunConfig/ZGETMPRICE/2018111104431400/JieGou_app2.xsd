@@ -1,0 +1,299 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="STRING" xmlns:mstns="STRING" xmlns="STRING" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app2="STRING" xmlns:app3="Tables" xmlns:app4="IM" xmlns:app5="EX" xmlns:app1="EXT">
+  <xs:import namespace="EXT" schemaLocation="JieGou_app1.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app5.xsd" />
+  <xs:import namespace="IM" schemaLocation="JieGou_app4.xsd" />
+  <xs:import namespace="Tables" schemaLocation="JieGou_app3.xsd" />
+  <xs:element name="MANDT" msdata:Caption="集团" type="xs:string" />
+  <xs:element name="MATNR" msdata:Caption="物料编号" type="xs:string" />
+  <xs:element name="ERSDA" msdata:Caption="创建日期" type="xs:string" />
+  <xs:element name="ERNAM" msdata:Caption="创建对象的人员名称" type="xs:string" />
+  <xs:element name="LAEDA" msdata:Caption="上次更改的日期" type="xs:string" />
+  <xs:element name="AENAM" msdata:Caption="更改对象用户的名称" type="xs:string" />
+  <xs:element name="VPSTA" msdata:Caption="维护全部物料状态" type="xs:string" />
+  <xs:element name="PSTAT" msdata:Caption="维护状态" type="xs:string" />
+  <xs:element name="LVORM" msdata:Caption="在客户级标记要删除的物料" type="xs:string" />
+  <xs:element name="MTART" msdata:Caption="物料类型" type="xs:string" />
+  <xs:element name="MBRSH" msdata:Caption="行业领域" type="xs:string" />
+  <xs:element name="MATKL" msdata:Caption="物料组" type="xs:string" />
+  <xs:element name="BISMT" msdata:Caption="旧物料号" type="xs:string" />
+  <xs:element name="MEINS" msdata:Caption="基本计量单位" type="xs:string" />
+  <xs:element name="BSTME" msdata:Caption="采购订单计量单位" type="xs:string" />
+  <xs:element name="ZEINR" msdata:Caption="文档号码(无文档管理系统)" type="xs:string" />
+  <xs:element name="ZEIAR" msdata:Caption="凭证类型(无凭证管理系统)" type="xs:string" />
+  <xs:element name="ZEIVR" msdata:Caption="文档版本（无文档管理系统）" type="xs:string" />
+  <xs:element name="ZEIFO" msdata:Caption="文件的页面大小（不包括文件管理系统）" type="xs:string" />
+  <xs:element name="AESZN" msdata:Caption="文档变更号(无文档管理系统)" type="xs:string" />
+  <xs:element name="BLATT" msdata:Caption="凭证的页号(不带凭证管理系统)" type="xs:string" />
+  <xs:element name="BLANZ" msdata:Caption="页数(没有凭证管理系统)" type="xs:string" />
+  <xs:element name="FERTH" msdata:Caption="生产/检验备忘录" type="xs:string" />
+  <xs:element name="FORMT" msdata:Caption="生产备忘录的页格式" type="xs:string" />
+  <xs:element name="GROES" msdata:Caption="大小/量纲" type="xs:string" />
+  <xs:element name="WRKST" msdata:Caption="基本物料" type="xs:string" />
+  <xs:element name="NORMT" msdata:Caption="工业标准描述 (例如 ANSI 或 ISO)" type="xs:string" />
+  <xs:element name="LABOR" msdata:Caption="实验室/设计室" type="xs:string" />
+  <xs:element name="EKWSL" msdata:Caption="采购价值代码" type="xs:string" />
+  <xs:element name="BRGEW" msdata:Caption="毛重" type="xs:string" />
+  <xs:element name="NTGEW" msdata:Caption="净重" type="xs:string" />
+  <xs:element name="GEWEI" msdata:Caption="重量单位" type="xs:string" />
+  <xs:element name="VOLUM" msdata:Caption="业务量" type="xs:string" />
+  <xs:element name="VOLEH" msdata:Caption="体积单位" type="xs:string" />
+  <xs:element name="BEHVO" msdata:Caption="容器需求" type="xs:string" />
+  <xs:element name="RAUBE" msdata:Caption="存储条件" type="xs:string" />
+  <xs:element name="TEMPB" msdata:Caption="温度条件标识" type="xs:string" />
+  <xs:element name="DISST" msdata:Caption="低层代码" type="xs:string" />
+  <xs:element name="TRAGR" msdata:Caption="运输组" type="xs:string" />
+  <xs:element name="STOFF" msdata:Caption="危险物料号" type="xs:string" />
+  <xs:element name="SPART" msdata:Caption="分部" type="xs:string" />
+  <xs:element name="KUNNR" msdata:Caption="竞争者" type="xs:string" />
+  <xs:element name="EANNR" msdata:Caption="欧洲物品号 (EAN) - 已过时的 !!!!!" type="xs:string" />
+  <xs:element name="WESCH" msdata:Caption="数量: 待打印的 GR/GI 单数量" type="xs:string" />
+  <xs:element name="BWVOR" msdata:Caption="采购规则" type="xs:string" />
+  <xs:element name="BWSCL" msdata:Caption="货源" type="xs:string" />
+  <xs:element name="SAISO" msdata:Caption="季节类别" type="xs:string" />
+  <xs:element name="ETIAR" msdata:Caption="标签类型" type="xs:string" />
+  <xs:element name="ETIFO" msdata:Caption="标签格式" type="xs:string" />
+  <xs:element name="ENTAR" msdata:Caption="已取消激活" type="xs:string" />
+  <xs:element name="EAN11" msdata:Caption="国际文件号(EAN/UPC)" type="xs:string" />
+  <xs:element name="NUMTP" msdata:Caption="国际商品编码的类别 (EAN)" type="xs:string" />
+  <xs:element name="LAENG" msdata:Caption="长度" type="xs:string" />
+  <xs:element name="BREIT" msdata:Caption="宽度" type="xs:string" />
+  <xs:element name="HOEHE" msdata:Caption="高度" type="xs:string" />
+  <xs:element name="MEABM" msdata:Caption="长度/宽度/高度的尺寸单位" type="xs:string" />
+  <xs:element name="PRDHA" msdata:Caption="产品层次" type="xs:string" />
+  <xs:element name="AEKLK" msdata:Caption="库存转移净改变成本核算" type="xs:string" />
+  <xs:element name="CADKZ" msdata:Caption="CAD 标识" type="xs:string" />
+  <xs:element name="QMPUR" msdata:Caption="激活采购中的 QM" type="xs:string" />
+  <xs:element name="ERGEW" msdata:Caption="允许的包装重量" type="xs:string" />
+  <xs:element name="ERGEI" msdata:Caption="加权的单位(允许打包加权)" type="xs:string" />
+  <xs:element name="ERVOL" msdata:Caption="允许的包装体积" type="xs:string" />
+  <xs:element name="ERVOE" msdata:Caption="体积单位(允许打包体积)" type="xs:string" />
+  <xs:element name="GEWTO" msdata:Caption="处理单位的超重量容差" type="xs:string" />
+  <xs:element name="VOLTO" msdata:Caption="处理单位的超量冗差" type="xs:string" />
+  <xs:element name="VABME" msdata:Caption="已激活变量采购订单单位" type="xs:string" />
+  <xs:element name="KZREV" msdata:Caption="标识: 修改水平已分配到物料" type="xs:string" />
+  <xs:element name="KZKFG" msdata:Caption="可配置物料" type="xs:string" />
+  <xs:element name="XCHPF" msdata:Caption="批次管理需求的标识" type="xs:string" />
+  <xs:element name="VHART" msdata:Caption="包装物料类型" type="xs:string" />
+  <xs:element name="FUELG" msdata:Caption="最大层次 (按体积)" type="xs:string" />
+  <xs:element name="STFAK" msdata:Caption="堆栈因子" type="xs:string" />
+  <xs:element name="MAGRV" msdata:Caption="物料组: 包装物料" type="xs:string" />
+  <xs:element name="BEGRU" msdata:Caption="权限组" type="xs:string" />
+  <xs:element name="DATAB" msdata:Caption="开始生效日期" type="xs:string" />
+  <xs:element name="LIQDT" msdata:Caption="删除日期" type="xs:string" />
+  <xs:element name="SAISJ" msdata:Caption="季度年" type="xs:string" />
+  <xs:element name="PLGTP" msdata:Caption="价格幅度类别" type="xs:string" />
+  <xs:element name="MLGUT" msdata:Caption="空白物料清单" type="xs:string" />
+  <xs:element name="EXTWG" msdata:Caption="外部物料组" type="xs:string" />
+  <xs:element name="SATNR" msdata:Caption="一般可配置物料" type="xs:string" />
+  <xs:element name="ATTYP" msdata:Caption="物料类别" type="xs:string" />
+  <xs:element name="KZKUP" msdata:Caption="指示符 : 物料是联产品" type="xs:string" />
+  <xs:element name="KZNFM" msdata:Caption="标记：物料有一后续物料" type="xs:string" />
+  <xs:element name="PMATA" msdata:Caption="定价参考物料" type="xs:string" />
+  <xs:element name="MSTAE" msdata:Caption="跨工厂物料状态" type="xs:string" />
+  <xs:element name="MSTAV" msdata:Caption="跨分销链物料状态" type="xs:string" />
+  <xs:element name="MSTDE" msdata:Caption="从跨工厂物料状态有效起的日期" type="xs:string" />
+  <xs:element name="MSTDV" msdata:Caption="从跨分销链物料状态有效起的日期" type="xs:string" />
+  <xs:element name="TAKLV" msdata:Caption="物料从税收分类" type="xs:string" />
+  <xs:element name="RBNRM" msdata:Caption="类别参数文件" type="xs:string" />
+  <xs:element name="MHDRZ" msdata:Caption="最短剩余货架寿命" type="xs:string" />
+  <xs:element name="MHDHB" msdata:Caption="总货架寿命" type="xs:string" />
+  <xs:element name="MHDLP" msdata:Caption="仓储百分比" type="xs:string" />
+  <xs:element name="INHME" msdata:Caption="内容单位" type="xs:string" />
+  <xs:element name="INHAL" msdata:Caption="净内容" type="xs:string" />
+  <xs:element name="VPREH" msdata:Caption="比较价格单位" type="xs:string" />
+  <xs:element name="ETIAG" msdata:Caption="IS-R 标签：物料组（在 4.0 中不活动）" type="xs:string" />
+  <xs:element name="INHBR" msdata:Caption="毛内容" type="xs:string" />
+  <xs:element name="CMETH" msdata:Caption="数量转换方法" type="xs:string" />
+  <xs:element name="CUOBF" msdata:Caption="内部对象号" type="xs:string" />
+  <xs:element name="KZUMW" msdata:Caption="环境相关" type="xs:string" />
+  <xs:element name="KOSCH" msdata:Caption="产品分配确定程序" type="xs:string" />
+  <xs:element name="SPROF" msdata:Caption="变式的定价参数文件" type="xs:string" />
+  <xs:element name="NRFHG" msdata:Caption="针对物料的折扣类型" type="xs:string" />
+  <xs:element name="MFRPN" msdata:Caption="制造商零件编号" type="xs:string" />
+  <xs:element name="MFRNR" msdata:Caption="制造商号码" type="xs:string" />
+  <xs:element name="BMATN" msdata:Caption="公司自己 (内部) 的盘点管理物料编号" type="xs:string" />
+  <xs:element name="MPROF" msdata:Caption="制造商部件的参数文件" type="xs:string" />
+  <xs:element name="KZWSM" msdata:Caption="计量单位使用" type="xs:string" />
+  <xs:element name="SAITY" msdata:Caption="在季节内展开" type="xs:string" />
+  <xs:element name="PROFL" msdata:Caption="危险货物标识参数文件" type="xs:string" />
+  <xs:element name="IHIVI" msdata:Caption="标识符:高粘性的" type="xs:string" />
+  <xs:element name="ILOOS" msdata:Caption="标识符:固体/液体" type="xs:string" />
+  <xs:element name="SERLV" msdata:Caption="序列号的清晰的级别" type="xs:string" />
+  <xs:element name="KZGVH" msdata:Caption="包装物料是密闭包装的" type="xs:string" />
+  <xs:element name="XGCHP" msdata:Caption="指示符：需要批准的批量记录" type="xs:string" />
+  <xs:element name="KZEFF" msdata:Caption="指定有效参数值/覆盖更改编号" type="xs:string" />
+  <xs:element name="COMPL" msdata:Caption="物料完成的水平" type="xs:string" />
+  <xs:element name="IPRKZ" msdata:Caption="货架寿命到期日的期间标识" type="xs:string" />
+  <xs:element name="RDMHD" msdata:Caption="货架寿命到期日期计算舍入规则" type="xs:string" />
+  <xs:element name="PRZUS" msdata:Caption="标识：印刷在包装上的产品成份" type="xs:string" />
+  <xs:element name="MTPOS_MARA" msdata:Caption="普通项目类别组" type="xs:string" />
+  <xs:element name="BFLME" msdata:Caption="含后勤变量的一般物料" type="xs:string" />
+  <xs:element name="MATFI" msdata:Caption="物料被锁定" type="xs:string" />
+  <xs:element name="CMREL" msdata:Caption="与配置管理相关" type="xs:string" />
+  <xs:element name="BBTYP" msdata:Caption="分类清单类型" type="xs:string" />
+  <xs:element name="SLED_BBD" msdata:Caption="过期日期" type="xs:string" />
+  <xs:element name="GTIN_VARIANT" msdata:Caption="全球贸易项目编号变式" type="xs:string" />
+  <xs:element name="GENNR" msdata:Caption="预包装物料中的一般物料的物料编号" type="xs:string" />
+  <xs:element name="RMATP" msdata:Caption="以相同方式包装的物料的参考物料" type="xs:string" />
+  <xs:element name="GDS_RELEVANT" msdata:Caption="标识：全局数据同步相关" type="xs:string" />
+  <xs:element name="WEORA" msdata:Caption="原始接受" type="xs:string" />
+  <xs:element name="HUTYP_DFLT" msdata:Caption="标准处理单位类型" type="xs:string" />
+  <xs:element name="PILFERABLE" msdata:Caption="可偷窃的" type="xs:string" />
+  <xs:element name="WHSTC" msdata:Caption="仓库存储条件" type="xs:string" />
+  <xs:element name="WHMATGR" msdata:Caption="仓库物料组" type="xs:string" />
+  <xs:element name="HNDLCODE" msdata:Caption="处理标识" type="xs:string" />
+  <xs:element name="HAZMAT" msdata:Caption="与有害物质相关" type="xs:string" />
+  <xs:element name="HUTYP" msdata:Caption="处理单位类型" type="xs:string" />
+  <xs:element name="TARE_VAR" msdata:Caption="可变皮重" type="xs:string" />
+  <xs:element name="MAXC" msdata:Caption="包装物料允许的最大产能" type="xs:string" />
+  <xs:element name="MAXC_TOL" msdata:Caption="处理单位的产能过剩容差" type="xs:string" />
+  <xs:element name="MAXL" msdata:Caption="包装物料最大包装长度" type="xs:string" />
+  <xs:element name="MAXB" msdata:Caption="包装物料最大包装宽度" type="xs:string" />
+  <xs:element name="MAXH" msdata:Caption="包装物料最大包装高度" type="xs:string" />
+  <xs:element name="MAXDIM_UOM" msdata:Caption="最大包装长度/宽度/高度的计量单位" type="xs:string" />
+  <xs:element name="HERKL" msdata:Caption="物料原产国（非优惠原产地）" type="xs:string" />
+  <xs:element name="MFRGR" msdata:Caption="物料运输组" type="xs:string" />
+  <xs:element name="QQTIME" msdata:Caption="隔离期间" type="xs:string" />
+  <xs:element name="QQTIMEUOM" msdata:Caption="隔离期间的时间单位" type="xs:string" />
+  <xs:element name="QGRP" msdata:Caption="质量检查组" type="xs:string" />
+  <xs:element name="SERIAL" msdata:Caption="序列号参数文件" type="xs:string" />
+  <xs:element name="PS_SMARTFORM" msdata:Caption="表格名" type="xs:string" />
+  <xs:element name="LOGUNIT" msdata:Caption="EWM CW：后勤计量单位" type="xs:string" />
+  <xs:element name="CWQREL" msdata:Caption="EWM CW：物料是称重物料" type="xs:string" />
+  <xs:element name="CWQPROC" msdata:Caption="EWM CW：用于输入称重数量的称重参数文件" type="xs:string" />
+  <xs:element name="CWQTOLGR" msdata:Caption="称重容差组" type="xs:string" />
+  <xs:element name="ADPROF" msdata:Caption="调整参数文件" type="xs:string" />
+  <xs:element name="IPMIPPRODUCT" msdata:Caption="知识产权标识（CRM 产品）" type="xs:string" />
+  <xs:element name="ALLOW_PMAT_IGNO" msdata:Caption="允许的变式价格（针对物料主数据）" type="xs:string" />
+  <xs:element name="MEDIUM" msdata:Caption="中间" type="xs:string" />
+  <xs:element name="COMMODITY" msdata:Caption="实物商品" type="xs:string" />
+  <xs:element name="ANIMAL_ORIGIN" msdata:Caption="标识：包含动物源的非纺织部分" type="xs:string" />
+  <xs:element name="TEXTILE_COMP_IND" msdata:Caption="标识：新纺织组分功能" type="xs:string" />
+  <xs:element name="LAST_CHANGED_TIME" msdata:Caption="最后更改时间" type="xs:string" />
+  <xs:element name="SGT_CSGR" msdata:Caption="分段结构" type="xs:string" />
+  <xs:element name="SGT_COVSA" msdata:Caption="分段策略" type="xs:string" />
+  <xs:element name="SGT_STAT" msdata:Caption="分段物料主数据状态" type="xs:string" />
+  <xs:element name="SGT_SCOPE" msdata:Caption="分段策略范围" type="xs:string" />
+  <xs:element name="SGT_REL" msdata:Caption="分段相关" type="xs:string" />
+  <xs:element name="ANP" msdata:Caption="ANP Code" type="xs:string" />
+  <xs:element name="PSM_CODE" msdata:Caption="受保护种类管理代码" type="xs:string" />
+  <xs:element name="FSH_MG_AT1" msdata:Caption="Fashion 信息字段：1" type="xs:string" />
+  <xs:element name="FSH_MG_AT2" msdata:Caption="Fashion 信息字段：2" type="xs:string" />
+  <xs:element name="FSH_MG_AT3" msdata:Caption="Fashion 信息字段：3" type="xs:string" />
+  <xs:element name="FSH_SEALV" msdata:Caption="标识：季节使用" type="xs:string" />
+  <xs:element name="FSH_SEAIM" msdata:Caption="标识：在库存管理中激活季节" type="xs:string" />
+  <xs:element name="FSH_SC_MID" msdata:Caption="特征值转换的物料转换标识" type="xs:string" />
+  <xs:element name="DUMMY_PRD_INCL_EEW_PS" msdata:Caption="虚拟字段" type="xs:string" />
+  <xs:element name="SCM_MATID_GUID16" msdata:Caption="产品的内部代码" type="xs:string" />
+  <xs:element name="SCM_MATID_GUID22" msdata:Caption="内部产品编号(UID)" type="xs:string" />
+  <xs:element name="SCM_MATURITY_DUR" msdata:Caption="成熟时间" type="xs:string" />
+  <xs:element name="SCM_SHLF_LFE_REQ_MIN" msdata:Caption="要求的最短货架寿命" type="xs:string" />
+  <xs:element name="SCM_SHLF_LFE_REQ_MAX" msdata:Caption="要求的最长货架寿命" type="xs:string" />
+  <xs:element name="SCM_PUOM" msdata:Caption="用于仓库操作的首选备选计量单位" type="xs:string" />
+  <xs:element name="_x002F_CWM_x002F_XCWMAT" msdata:Caption="物料已针对称重激活" type="xs:string" />
+  <xs:element name="_x002F_CWM_x002F_VALUM" msdata:Caption="评估计量单位" type="xs:string" />
+  <xs:element name="_x002F_CWM_x002F_TOLGR" msdata:Caption="CWM 的容差组" type="xs:string" />
+  <xs:element name="_x002F_CWM_x002F_TARA" msdata:Caption="考虑每个参考计量单位的总皮重" type="xs:string" />
+  <xs:element name="_x002F_CWM_x002F_TARUM" msdata:Caption="“包装重量”计算的参考计量单位" type="xs:string" />
+  <xs:element name="_x002F_BEV1_x002F_LULEINH" msdata:Caption="装载单位" type="xs:string" />
+  <xs:element name="_x002F_BEV1_x002F_LULDEGRP" msdata:Caption="装载单位组：IS 饮料" type="xs:string" />
+  <xs:element name="_x002F_BEV1_x002F_NESTRUCCAT" msdata:Caption="物料关系的结构类别" type="xs:string" />
+  <xs:element name="_x002F_DSD_x002F_SL_TOLTYP" msdata:Caption="容差类型标识" type="xs:string" />
+  <xs:element name="_x002F_DSD_x002F_SV_CNT_GRP" msdata:Caption="计算组" type="xs:string" />
+  <xs:element name="_x002F_DSD_x002F_VC_GROUP" msdata:Caption="DSD 分组" type="xs:string" />
+  <xs:element name="_x002F_SAPMP_x002F_KADU" msdata:Caption="电缆直径" type="xs:string" />
+  <xs:element name="_x002F_SAPMP_x002F_ABMEIN" msdata:Caption="维度单位" type="xs:string" />
+  <xs:element name="_x002F_SAPMP_x002F_KADP" msdata:Caption="电缆直径允许的百分比" type="xs:string" />
+  <xs:element name="_x002F_SAPMP_x002F_BRAD" msdata:Caption="弯曲因子" type="xs:string" />
+  <xs:element name="_x002F_SAPMP_x002F_SPBI" msdata:Caption="内部宽度" type="xs:string" />
+  <xs:element name="_x002F_SAPMP_x002F_TRAD" msdata:Caption="外径" type="xs:string" />
+  <xs:element name="_x002F_SAPMP_x002F_KEDU" msdata:Caption="芯直径" type="xs:string" />
+  <xs:element name="_x002F_SAPMP_x002F_SPTR" msdata:Caption="装载能力" type="xs:string" />
+  <xs:element name="_x002F_SAPMP_x002F_FBDK" msdata:Caption="转出法兰厚度" type="xs:string" />
+  <xs:element name="_x002F_SAPMP_x002F_FBHK" msdata:Caption="转出法兰高度" type="xs:string" />
+  <xs:element name="_x002F_SAPMP_x002F_RILI" msdata:Caption="卷交货" type="xs:string" />
+  <xs:element name="_x002F_SAPMP_x002F_FBAK" msdata:Caption="转出法兰" type="xs:string" />
+  <xs:element name="_x002F_SAPMP_x002F_AHO" msdata:Caption="最大垂直层数" type="xs:string" />
+  <xs:element name="_x002F_SAPMP_x002F_MIFRR" msdata:Caption="电缆允许的最小盘料清除" type="xs:string" />
+  <xs:element name="_x002F_VSO_x002F_R_TILT_IND" msdata:Caption="可以倾斜物料 (车辆空间优化)" type="xs:string" />
+  <xs:element name="_x002F_VSO_x002F_R_STACK_IND" msdata:Caption="不允许堆栈 (VSO)" type="xs:string" />
+  <xs:element name="_x002F_VSO_x002F_R_BOT_IND" msdata:Caption="底层 (车辆空间最优化)" type="xs:string" />
+  <xs:element name="_x002F_VSO_x002F_R_TOP_IND" msdata:Caption="顶层 (VSO)" type="xs:string" />
+  <xs:element name="_x002F_VSO_x002F_R_STACK_NO" msdata:Caption="堆叠系数 (车辆空间优化)" type="xs:string" />
+  <xs:element name="_x002F_VSO_x002F_R_PAL_IND" msdata:Caption="无包装物料的装载 (VSO)" type="xs:string" />
+  <xs:element name="_x002F_VSO_x002F_R_PAL_OVR_D" msdata:Caption="包装物料的允许悬挂深度 (VSO)" type="xs:string" />
+  <xs:element name="_x002F_VSO_x002F_R_PAL_OVR_W" msdata:Caption="装运物料的允许悬挂宽度 (VSO)" type="xs:string" />
+  <xs:element name="_x002F_VSO_x002F_R_PAL_B_HT" msdata:Caption="包装物料的最大叠放高度 (VSO)" type="xs:string" />
+  <xs:element name="_x002F_VSO_x002F_R_PAL_MIN_H" msdata:Caption="包装物料的最小叠放高度 (VSO)" type="xs:string" />
+  <xs:element name="_x002F_VSO_x002F_R_TOL_B_HT" msdata:Caption="超出最大叠放高度的容差 (VSO)" type="xs:string" />
+  <xs:element name="_x002F_VSO_x002F_R_NO_P_GVH" msdata:Caption="每个已结清 PKM 的物料编号(VSO)" type="xs:string" />
+  <xs:element name="_x002F_VSO_x002F_R_QUAN_UNIT" msdata:Caption="计量单位车辆空间优化" type="xs:string" />
+  <xs:element name="_x002F_VSO_x002F_R_KZGVH_IND" msdata:Caption="请求的已清包装物料 (VSO)" type="xs:string" />
+  <xs:element name="PACKCODE" msdata:Caption="包装代码" type="xs:string" />
+  <xs:element name="DG_PACK_STATUS" msdata:Caption="危险品的包装状态" type="xs:string" />
+  <xs:element name="MCOND" msdata:Caption="物料条件管理" type="xs:string" />
+  <xs:element name="RETDELC" msdata:Caption="返回代码" type="xs:string" />
+  <xs:element name="LOGLEV_RETO" msdata:Caption="后勤等级退货" type="xs:string" />
+  <xs:element name="NSNID" msdata:Caption="NATO 库存编号" type="xs:string" />
+  <xs:element name="OVLPN" msdata:Caption="过长部分号码" type="xs:string" />
+  <xs:element name="ADSPC_SPC" msdata:Caption="备件类代码" type="xs:string" />
+  <xs:element name="VARID" msdata:Caption="GUID变量对象标识" type="xs:string" />
+  <xs:element name="MSBOOKPARTNO" msdata:Caption="制造商登记部分编号" type="xs:string" />
+  <xs:element name="VTYPE" msdata:Caption="版本类别" type="xs:string" />
+  <xs:element name="EVVAL" msdata:Caption="物料始终是有效的" type="xs:string" />
+  <xs:element name="DVERS" msdata:Caption="缺省版本" type="xs:string" />
+  <xs:element name="DPCBT" msdata:Caption="单一单位批次缺省值" type="xs:string" />
+  <xs:element name="XGRDT" msdata:Caption="允许的过帐单一单位批次的收货" type="xs:string" />
+  <xs:element name="IMATN" msdata:Caption="完全互换组" type="xs:string" />
+  <xs:element name="PICNUM" msdata:Caption="替换链编号" type="xs:string" />
+  <xs:element name="BSTAT" msdata:Caption="创建状态 - 季节性采购" type="xs:string" />
+  <xs:element name="COLOR_ATINN" msdata:Caption="颜色特性的内部特性编号" type="xs:string" />
+  <xs:element name="SIZE1_ATINN" msdata:Caption="主尺寸的特性的内部特性编号" type="xs:string" />
+  <xs:element name="SIZE2_ATINN" msdata:Caption="次尺寸的特性的内部特性编号" type="xs:string" />
+  <xs:element name="COLOR" msdata:Caption="变式颜色的特性值" type="xs:string" />
+  <xs:element name="SIZE1" msdata:Caption="变式主尺寸的特性值" type="xs:string" />
+  <xs:element name="SIZE2" msdata:Caption="变式的次尺寸的特性值" type="xs:string" />
+  <xs:element name="FREE_CHAR" msdata:Caption="评估目的的特性值" type="xs:string" />
+  <xs:element name="CARE_CODE" msdata:Caption="护理代码（例如洗涤代码, 烫平衣服代码, 等等)" type="xs:string" />
+  <xs:element name="BRAND_ID" msdata:Caption="商标" type="xs:string" />
+  <xs:element name="FIBER_CODE1" msdata:Caption="纺织品的光纤代码（组件1）" type="xs:string" />
+  <xs:element name="FIBER_PART1" msdata:Caption="光纤的百分比共享（组件1）" type="xs:string" />
+  <xs:element name="FIBER_CODE2" msdata:Caption="纺织品的光纤代码（组件2）" type="xs:string" />
+  <xs:element name="FIBER_PART2" msdata:Caption="光纤的百分比共享（组件2）" type="xs:string" />
+  <xs:element name="FIBER_CODE3" msdata:Caption="纺织品的光纤代码（组件3）" type="xs:string" />
+  <xs:element name="FIBER_PART3" msdata:Caption="光纤的百分比共享（组件3）" type="xs:string" />
+  <xs:element name="FIBER_CODE4" msdata:Caption="纺织品的光纤代码（组件4）" type="xs:string" />
+  <xs:element name="FIBER_PART4" msdata:Caption="光纤的百分比共享（组件4）" type="xs:string" />
+  <xs:element name="FIBER_CODE5" msdata:Caption="纺织品的光纤代码（组件5）" type="xs:string" />
+  <xs:element name="FIBER_PART5" msdata:Caption="光纤的百分比共享（组件5）" type="xs:string" />
+  <xs:element name="FASHGRD" msdata:Caption="时装等级" type="xs:string" />
+  <xs:element name="ZPP" msdata:Caption="品牌" type="xs:string" />
+  <xs:element name="ZGONGYI" msdata:Caption="工艺" type="xs:string" />
+  <xs:element name="ZLLZHL" msdata:Caption="含氯等级" type="xs:string" />
+  <xs:element name="ZZPP" msdata:Caption="子品牌" type="xs:string" />
+  <xs:element name="ZZHL" msdata:Caption="总含量" type="xs:string" />
+  <xs:element name="ZN" msdata:Caption="N" type="xs:string" />
+  <xs:element name="ZP" msdata:Caption="P" type="xs:string" />
+  <xs:element name="ZK" msdata:Caption="K" type="xs:string" />
+  <xs:element name="ZQTYS" msdata:Caption="其他元素" type="xs:string" />
+  <xs:element name="ZBAOZ" msdata:Caption="包重" type="xs:string" />
+  <xs:element name="ZKL" msdata:Caption="细度" type="xs:string" />
+  <xs:element name="ZCPZS" msdata:Caption="颜色" type="xs:string" />
+  <xs:element name="ZBZBS" msdata:Caption="包装版式" type="xs:string" />
+  <xs:element name="ZLPJDL" msdata:Caption="零配件大类" type="xs:string" />
+  <xs:element name="ZLPJZL" msdata:Caption="零配件中类" type="xs:string" />
+  <xs:element name="ZLPJXL" msdata:Caption="零配件小类" type="xs:string" />
+  <xs:element name="ZZYF" msdata:Caption="产品大类" type="xs:string" />
+  <xs:element name="ZCPFX" msdata:Caption="财务成本分组" type="xs:string" />
+  <xs:element name="ZZ_KHWL" msdata:Caption="客户描述" type="xs:string" />
+  <xs:element name="ZZ_MATZLU8" msdata:Caption="中磷U8编码" type="xs:string" />
+  <xs:element name="ZZ_MATATU8" msdata:Caption="澳特尔U8编码" type="xs:string" />
+  <xs:element name="ZZ_MATSDU8" msdata:Caption="山东U8编码" type="xs:string" />
+  <xs:element name="ZE_MATHBU8" msdata:Caption="河北U8编码" type="xs:string" />
+  <xs:element name="ZE_MATJLU8" msdata:Caption="吉林U8编码" type="xs:string" />
+  <xs:element name="ZE_MATGXU8" msdata:Caption="广西U8编码" type="xs:string" />
+  <xs:element name="ZE_MATJXU8" msdata:Caption="江西U8编码" type="xs:string" />
+  <xs:element name="ZE_MATYCU8" msdata:Caption="宜昌U8编码" type="xs:string" />
+  <xs:element name="ZE_MATSCU8" msdata:Caption="四川U8编码" type="xs:string" />
+</xs:schema>

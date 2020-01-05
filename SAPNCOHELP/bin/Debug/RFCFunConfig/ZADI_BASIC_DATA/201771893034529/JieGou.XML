@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="ZADI_BASIC_DATA" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:app1="EXT" xmlns:app2="String" xmlns:app3="Tables" xmlns:app4="STRING" xmlns:app5="IM" xmlns:app6="EX">
+  <xs:import namespace="EXT" schemaLocation="JieGou_app1.xsd" />
+  <xs:import namespace="STRING" schemaLocation="JieGou_app4.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app6.xsd" />
+  <xs:import namespace="IM" schemaLocation="JieGou_app5.xsd" />
+  <xs:import namespace="Tables" schemaLocation="JieGou_app3.xsd" />
+  <xs:import namespace="String" schemaLocation="JieGou_app2.xsd" />
+  <xs:element name="ZADI_BASIC_DATA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="app1:EXT.EX_EMSG" />
+        <xs:element ref="app3:ET_DATA" />
+        <xs:element ref="app3:IT_DATA" />
+        <xs:element ref="app5:IM" />
+        <xs:element ref="app6:dtIM" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

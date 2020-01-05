@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="IMS" xmlns:mstns="IMS" xmlns="IMS" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app3="IMS" xmlns:app4="String" xmlns:app6="IM" xmlns:app7="EX" xmlns:app2="STRING" xmlns:app5="Tables" xmlns:app1="EXT">
+  <xs:import namespace="EXT" schemaLocation="JieGou_app1.xsd" />
+  <xs:import namespace="Tables" schemaLocation="JieGou_app5.xsd" />
+  <xs:import namespace="STRING" schemaLocation="JieGou_app2.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app7.xsd" />
+  <xs:import namespace="IM" schemaLocation="JieGou_app6.xsd" />
+  <xs:import namespace="String" schemaLocation="JieGou_app4.xsd" />
+  <xs:element name="IMS.IM_SEARCH">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="app2:ZDH" minOccurs="0" />
+        <xs:element ref="app2:CHECH" minOccurs="0" />
+        <xs:element ref="app2:ZBFBH" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

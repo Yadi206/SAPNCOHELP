@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="IM" xmlns:mstns="IM" xmlns="IM" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app3="IM" xmlns:app1="STRING" xmlns:app4="EX" xmlns:app2="EXS">
+  <xs:import namespace="EXS" schemaLocation="JieGou_app2.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app4.xsd" />
+  <xs:import namespace="STRING" schemaLocation="JieGou_app1.xsd" />
+  <xs:element name="IM" msdata:Prefix="传入参数">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Code" type="xs:string" minOccurs="0" />
+        <xs:element name="Name" type="xs:string" minOccurs="0" />
+        <xs:element name="Value" type="xs:string" minOccurs="0" />
+        <xs:element name="remarks" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

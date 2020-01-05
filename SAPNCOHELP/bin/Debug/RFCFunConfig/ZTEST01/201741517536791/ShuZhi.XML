@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<ZTEST01>
+  <MAKT xmlns="EXS">
+    <MANDT>125</MANDT>
+    <MATNR>000000000000000001</MATNR>
+    <SPRAS>1</SPRAS>
+    <MAKTX>"二极管	
+01"</MAKTX>
+    <MAKTG>二极管01~SHICHENG</MAKTG>
+  </MAKT>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">MATNR</Code>
+    <Name xmlns="IM">物料编号</Name>
+    <Value xmlns="IM">111</Value>
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+</ZTEST01>

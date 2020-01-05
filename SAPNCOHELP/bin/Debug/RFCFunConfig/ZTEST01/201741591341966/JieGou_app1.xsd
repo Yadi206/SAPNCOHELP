@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="EXS" xmlns:mstns="EXS" xmlns="EXS" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app1="EXS" xmlns:app3="EX" xmlns:app2="IM">
+  <xs:import namespace="IM" schemaLocation="JieGou_app2.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app3.xsd" />
+  <xs:element name="MAKT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="MANDT" msdata:Caption="客户端" type="xs:string" minOccurs="0" />
+        <xs:element name="MATNR" msdata:Caption="物料编号" type="xs:string" minOccurs="0" />
+        <xs:element name="SPRAS" msdata:Caption="语言代码" type="xs:string" minOccurs="0" />
+        <xs:element name="MAKTX" msdata:Caption="物料描述（短文本）" type="xs:string" minOccurs="0" />
+        <xs:element name="MAKTG" msdata:Caption="有关匹配码的大写的物料描述" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

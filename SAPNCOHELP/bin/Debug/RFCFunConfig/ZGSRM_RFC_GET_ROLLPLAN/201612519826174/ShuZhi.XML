@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<ZGSRM_RFC_GET_ROLLPLAN>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">PLVER</Code>
+    <Name xmlns="IM">计划版本号</Name>
+    <Value xmlns="IM" />
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">WERKS</Code>
+    <Name xmlns="IM">工厂</Name>
+    <Value xmlns="IM" />
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传出参数:dtIM xmlns:传出参数="EX">
+    <Code xmlns="EX">RTMSG</Code>
+    <Name xmlns="EX">消息文本</Name>
+    <Value xmlns="EX" />
+    <remarks xmlns="EX" />
+  </传出参数:dtIM>
+  <传出参数:dtIM xmlns:传出参数="EX">
+    <Code xmlns="EX">RTYPE</Code>
+    <Name xmlns="EX">消息类型: S 成功,E 错误,W 警告,I 信息,A 中断</Name>
+    <Value xmlns="EX" />
+    <remarks xmlns="EX" />
+  </传出参数:dtIM>
+</ZGSRM_RFC_GET_ROLLPLAN>

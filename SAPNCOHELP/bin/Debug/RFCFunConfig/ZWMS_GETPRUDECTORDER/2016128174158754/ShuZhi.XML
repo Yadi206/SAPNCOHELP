@@ -1,0 +1,81 @@
+<?xml version="1.0" standalone="yes"?>
+<ZWMS_GETPRUDECTORDER>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">AUART</Code>
+    <Name xmlns="IM">销售凭证类型</Name>
+    <Value xmlns="IM" />
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">AUFNR</Code>
+    <Name xmlns="IM">订单号</Name>
+    <Value xmlns="IM" />
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">ERDATJS</Code>
+    <Name xmlns="IM">工单创建日期至</Name>
+    <Value xmlns="IM" />
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">ERDATKS</Code>
+    <Name xmlns="IM">工单创建日期从</Name>
+    <Value xmlns="IM" />
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">GLTRPJS</Code>
+    <Name xmlns="IM">基本完成至</Name>
+    <Value xmlns="IM" />
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">GLTRPKS</Code>
+    <Name xmlns="IM">基本完成从</Name>
+    <Value xmlns="IM" />
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">GSTRPJS</Code>
+    <Name xmlns="IM">基本开始至</Name>
+    <Value xmlns="IM" />
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">GSTRPKS</Code>
+    <Name xmlns="IM">基本开始从</Name>
+    <Value xmlns="IM" />
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">ISALL</Code>
+    <Name xmlns="IM">是否获取全部工单</Name>
+    <Value xmlns="IM" />
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">IWERKS</Code>
+    <Name xmlns="IM">工厂</Name>
+    <Value xmlns="IM" />
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">WEMPF</Code>
+    <Name xmlns="IM">车间</Name>
+    <Value xmlns="IM" />
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传出参数:dtIM xmlns:传出参数="EX">
+    <Code xmlns="EX">RTMSG</Code>
+    <Name xmlns="EX">消息文本</Name>
+    <Value xmlns="EX" />
+    <remarks xmlns="EX" />
+  </传出参数:dtIM>
+  <传出参数:dtIM xmlns:传出参数="EX">
+    <Code xmlns="EX">RTYPE</Code>
+    <Name xmlns="EX">消息类型: S 成功,E 错误,W 警告,I 信息,A 中断</Name>
+    <Value xmlns="EX" />
+    <remarks xmlns="EX" />
+  </传出参数:dtIM>
+</ZWMS_GETPRUDECTORDER>

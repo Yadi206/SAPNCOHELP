@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="Tables" xmlns:mstns="Tables" xmlns="Tables" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app1="Tables" xmlns:app3="EX" xmlns:app2="IM">
+  <xs:import namespace="IM" schemaLocation="JieGou_app2.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app3.xsd" />
+  <xs:element name="T_HEADER">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="VBELN" msdata:Caption="交货" type="xs:string" minOccurs="0" />
+        <xs:element name="VSTEL" msdata:Caption="装运点/接收点" type="xs:string" minOccurs="0" />
+        <xs:element name="VKORG" msdata:Caption="销售组织" type="xs:string" minOccurs="0" />
+        <xs:element name="LFART" msdata:Caption="交货类型" type="xs:string" minOccurs="0" />
+        <xs:element name="KUNNR" msdata:Caption="送达方" type="xs:string" minOccurs="0" />
+        <xs:element name="WADAT" msdata:Caption="计划货物移动日期" type="xs:string" minOccurs="0" />
+        <xs:element name="LFDAT" msdata:Caption="交货日期" type="xs:string" minOccurs="0" />
+        <xs:element name="WBSTK" msdata:Caption="货物移动状态总计" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="T_ITEM">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="VBELN" msdata:Caption="交货" type="xs:string" minOccurs="0" />
+        <xs:element name="POSNR" msdata:Caption="交货项目" type="xs:string" minOccurs="0" />
+        <xs:element name="PSTYV" msdata:Caption="交货项目类别" type="xs:string" minOccurs="0" />
+        <xs:element name="MATNR" msdata:Caption="物料号" type="xs:string" minOccurs="0" />
+        <xs:element name="WERKS" msdata:Caption="工厂" type="xs:string" minOccurs="0" />
+        <xs:element name="LGORT" msdata:Caption="库存地点" type="xs:string" minOccurs="0" />
+        <xs:element name="CHARG" msdata:Caption="批号" type="xs:string" minOccurs="0" />
+        <xs:element name="LICHN" msdata:Caption="供应商的批次" type="xs:string" minOccurs="0" />
+        <xs:element name="KDMAT" msdata:Caption="客户物料" type="xs:string" minOccurs="0" />
+        <xs:element name="PRODH" msdata:Caption="产品层次" type="xs:string" minOccurs="0" />
+        <xs:element name="LFIMG" msdata:Caption="实际已交货量（按销售单位）" type="xs:string" minOccurs="0" />
+        <xs:element name="VRKME" msdata:Caption="销售单位" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="STRING" xmlns:mstns="STRING" xmlns="STRING" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app4="STRING" xmlns:app2="String" xmlns:app3="Tables" xmlns:app5="IM" xmlns:app6="EX" xmlns:app1="EXT">
+  <xs:import namespace="EXT" schemaLocation="JieGou_app1.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app6.xsd" />
+  <xs:import namespace="IM" schemaLocation="JieGou_app5.xsd" />
+  <xs:import namespace="Tables" schemaLocation="JieGou_app3.xsd" />
+  <xs:import namespace="String" schemaLocation="JieGou_app2.xsd" />
+  <xs:element name="ZKEY" msdata:Caption="主数据key" type="xs:string" />
+</xs:schema>

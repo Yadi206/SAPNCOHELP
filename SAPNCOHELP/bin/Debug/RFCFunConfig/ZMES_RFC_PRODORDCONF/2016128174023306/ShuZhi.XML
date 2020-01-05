@@ -1,0 +1,107 @@
+<?xml version="1.0" standalone="yes"?>
+<ZMES_RFC_PRODORDCONF>
+  <ERROR_RETURN xmlns="Tables">
+    <RTYPE>E</RTYPE>
+    <RTMSG>物料:5010008501 CONT`8 UP BOX FOR HP 64P0554/64P0541 AND 单位:EA 数量:             21.250 库存:              2.254 短缺:             18.996</RTMSG>
+    <MATNR>5010008501</MATNR>
+    <MAKTX>CONT`8 UP BOX FOR HP 64P0554/64P0541 AND</MAKTX>
+    <XUQIU>21.250</XUQIU>
+    <LABST>2.254</LABST>
+    <DUANQ>18.996</DUANQ>
+    <MEINS>EA</MEINS>
+  </ERROR_RETURN>
+  <ERROR_RETURN xmlns="Tables">
+    <RTYPE>E</RTYPE>
+    <RTMSG>物料:5010008501 CONT`8 UP BOX FOR HP 64P0554/64P0541 AND 单位:EA 数量:             21.250 库存:              2.254 短缺:             18.996</RTMSG>
+    <MATNR>5010008501</MATNR>
+    <MAKTX>CONT`8 UP BOX FOR HP 64P0554/64P0541 AND</MAKTX>
+    <XUQIU>21.250</XUQIU>
+    <LABST>2.254</LABST>
+    <DUANQ>18.996</DUANQ>
+    <MEINS>EA</MEINS>
+  </ERROR_RETURN>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">AUFNR</Code>
+    <Name xmlns="IM">订单号</Name>
+    <Value xmlns="IM">G161206009</Value>
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">BFMATNR</Code>
+    <Name xmlns="IM">报废成品编码</Name>
+    <Value xmlns="IM" />
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">BFMENGE</Code>
+    <Name xmlns="IM">报废数量数量</Name>
+    <Value xmlns="IM" />
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">BUDAT</Code>
+    <Name xmlns="IM">凭证中的过帐日期</Name>
+    <Value xmlns="IM">20161208</Value>
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">CHARG</Code>
+    <Name xmlns="IM">批号</Name>
+    <Value xmlns="IM" />
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">MENGE</Code>
+    <Name xmlns="IM">数量</Name>
+    <Value xmlns="IM">170.000</Value>
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">MESMB</Code>
+    <Name xmlns="IM">MES移库订单号</Name>
+    <Value xmlns="IM">DFG-00257836</Value>
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">WERKS</Code>
+    <Name xmlns="IM">工厂</Name>
+    <Value xmlns="IM">4232</Value>
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">ZCONFTYPE</Code>
+    <Name xmlns="IM">报工类型 1 报废成品收货 2 报废散料 3散料转成品</Name>
+    <Value xmlns="IM" />
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传出参数:dtIM xmlns:传出参数="EX">
+    <Code xmlns="EX">CONF_CNT</Code>
+    <Name xmlns="EX">确认计数器</Name>
+    <Value xmlns="EX">00000000</Value>
+    <remarks xmlns="EX" />
+  </传出参数:dtIM>
+  <传出参数:dtIM xmlns:传出参数="EX">
+    <Code xmlns="EX">CONF_NO</Code>
+    <Name xmlns="EX">操作完成的确认编号</Name>
+    <Value xmlns="EX">0000000000</Value>
+    <remarks xmlns="EX" />
+  </传出参数:dtIM>
+  <传出参数:dtIM xmlns:传出参数="EX">
+    <Code xmlns="EX">MBLNR</Code>
+    <Name xmlns="EX">物料凭证编号</Name>
+    <Value xmlns="EX" />
+    <remarks xmlns="EX" />
+  </传出参数:dtIM>
+  <传出参数:dtIM xmlns:传出参数="EX">
+    <Code xmlns="EX">RTMSG</Code>
+    <Name xmlns="EX">消息文本</Name>
+    <Value xmlns="EX">存在物料短缺</Value>
+    <remarks xmlns="EX" />
+  </传出参数:dtIM>
+  <传出参数:dtIM xmlns:传出参数="EX">
+    <Code xmlns="EX">RTYPE</Code>
+    <Name xmlns="EX">消息类型: S 成功,E 错误,W 警告,I 信息,A 中断</Name>
+    <Value xmlns="EX">E</Value>
+    <remarks xmlns="EX" />
+  </传出参数:dtIM>
+</ZMES_RFC_PRODORDCONF>

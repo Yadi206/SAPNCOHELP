@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="Tables" xmlns:mstns="Tables" xmlns="Tables" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app1="Tables" xmlns:app3="EX" xmlns:app2="IM">
+  <xs:import namespace="IM" schemaLocation="JieGou_app2.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app3.xsd" />
+  <xs:element name="T_BOM">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="MATNR" msdata:Caption="物料号" type="xs:string" minOccurs="0" />
+        <xs:element name="WERKS" msdata:Caption="工厂" type="xs:string" minOccurs="0" />
+        <xs:element name="MAKTX" msdata:Caption="物料描述（短文本）" type="xs:string" minOccurs="0" />
+        <xs:element name="STLAN" msdata:Caption="BOM 用途" type="xs:string" minOccurs="0" />
+        <xs:element name="STLAL" msdata:Caption="可选的 BOM" type="xs:string" minOccurs="0" />
+        <xs:element name="ZTEXT" msdata:Caption="BOM 文本" type="xs:string" minOccurs="0" />
+        <xs:element name="STKTX" msdata:Caption="可选 BOM 文本" type="xs:string" minOccurs="0" />
+        <xs:element name="BMENG" msdata:Caption="基准数量(BTCI)" type="xs:string" minOccurs="0" />
+        <xs:element name="DATUV" msdata:Caption="Valid from date" type="xs:string" minOccurs="0" />
+        <xs:element name="POSNR" msdata:Caption="BOM 项目号" type="xs:string" minOccurs="0" />
+        <xs:element name="POSTP" msdata:Caption="项目类别（物料单）" type="xs:string" minOccurs="0" />
+        <xs:element name="IDNRK" msdata:Caption="BOM 组件" type="xs:string" minOccurs="0" />
+        <xs:element name="MAKT2" msdata:Caption="物料描述（短文本）" type="xs:string" minOccurs="0" />
+        <xs:element name="GROES" msdata:Caption="大小/量纲" type="xs:string" minOccurs="0" />
+        <xs:element name="MENGE" msdata:Caption="组件数量 (BTCI)" type="xs:string" minOccurs="0" />
+        <xs:element name="MEINS" msdata:Caption="组件计量单位" type="xs:string" minOccurs="0" />
+        <xs:element name="AUSCH" msdata:Caption="部件废品百分数" type="xs:string" minOccurs="0" />
+        <xs:element name="ALPGR" msdata:Caption="替代项目：组" type="xs:string" minOccurs="0" />
+        <xs:element name="ALPST" msdata:Caption="替代项目：策略" type="xs:string" minOccurs="0" />
+        <xs:element name="ALPRF" msdata:Caption="替代项目：评比定单" type="xs:string" minOccurs="0" />
+        <xs:element name="EWAHR" msdata:Caption="使用可能性按 % (可选项目)" type="xs:string" minOccurs="0" />
+        <xs:element name="SANFE" msdata:Caption="标志: 与生产相关项目" type="xs:string" minOccurs="0" />
+        <xs:element name="SANKA" msdata:Caption="成本核算相关项的标识符" type="xs:string" minOccurs="0" />
+        <xs:element name="SANKO" msdata:Caption="标志: 与工程相关项目" type="xs:string" minOccurs="0" />
+        <xs:element name="EBORT" msdata:Caption="特性 2000" type="xs:string" minOccurs="0" />
+        <xs:element name="POTX1" msdata:Caption="BOM 项目文本（行1）" type="xs:string" minOccurs="0" />
+        <xs:element name="POTX2" msdata:Caption="BOM 项目文本 （行 2）" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

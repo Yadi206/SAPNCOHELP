@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="Tables" xmlns:mstns="Tables" xmlns="Tables" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app1="Tables" xmlns:app3="EX" xmlns:app2="IM">
+  <xs:import namespace="IM" schemaLocation="JieGou_app2.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app3.xsd" />
+  <xs:element name="ZWMS_SGETPRUDECTORDER">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="WERKS" msdata:Caption="工厂" type="xs:string" minOccurs="0" />
+        <xs:element name="AUFNR" msdata:Caption="订单号" type="xs:string" minOccurs="0" />
+        <xs:element name="AUART" msdata:Caption="销售凭证类型" type="xs:string" minOccurs="0" />
+        <xs:element name="AUARTTXT" msdata:Caption="短文本" type="xs:string" minOccurs="0" />
+        <xs:element name="MATNR" msdata:Caption="物料号" type="xs:string" minOccurs="0" />
+        <xs:element name="MAKTX" msdata:Caption="物料描述（短文本）" type="xs:string" minOccurs="0" />
+        <xs:element name="GAMNG" msdata:Caption="订单数量总计" type="xs:string" minOccurs="0" />
+        <xs:element name="GWEMG" msdata:Caption="已交货数量" type="xs:string" minOccurs="0" />
+        <xs:element name="GASMG" msdata:Caption="订单中总计废品数量" type="xs:string" minOccurs="0" />
+        <xs:element name="VERID" msdata:Caption="生产版本" type="xs:string" minOccurs="0" />
+        <xs:element name="BEIZHU" msdata:Caption="备注" type="xs:string" minOccurs="0" />
+        <xs:element name="GLTRP" msdata:Caption="基本完成日期" type="xs:string" minOccurs="0" />
+        <xs:element name="GSTRP" msdata:Caption="基本开始日期" type="xs:string" minOccurs="0" />
+        <xs:element name="WEMPF" msdata:Caption="收货方/运达方" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

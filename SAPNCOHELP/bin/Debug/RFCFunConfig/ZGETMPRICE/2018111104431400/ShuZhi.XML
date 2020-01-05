@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="yes"?>
+<ZGETMPRICE>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">MATNR</Code>
+    <Name xmlns="IM">物料编号</Name>
+    <Value xmlns="IM">1000214</Value>
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">MONTH</Code>
+    <Name xmlns="IM">月</Name>
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">WERKS</Code>
+    <Name xmlns="IM">工厂</Name>
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">YEAR</Code>
+    <Name xmlns="IM">年</Name>
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传出参数:dtIM xmlns:传出参数="EX">
+    <Code xmlns="EX">JHJG</Code>
+    <Name xmlns="EX">计划价格</Name>
+    <Value xmlns="EX">点击赋值</Value>
+    <remarks xmlns="EX" />
+  </传出参数:dtIM>
+  <传出参数:dtIM xmlns:传出参数="EX">
+    <Code xmlns="EX">RTMSG</Code>
+    <Name xmlns="EX">消息文本</Name>
+    <Value xmlns="EX">点击赋值</Value>
+    <remarks xmlns="EX" />
+  </传出参数:dtIM>
+  <传出参数:dtIM xmlns:传出参数="EX">
+    <Code xmlns="EX">RTYPE</Code>
+    <Name xmlns="EX">消息类型: S 成功,E 错误,W 警告,I 信息,A 中断</Name>
+    <Value xmlns="EX">点击赋值</Value>
+    <remarks xmlns="EX" />
+  </传出参数:dtIM>
+  <传出参数:dtIM xmlns:传出参数="EX">
+    <Code xmlns="EX">SJJG</Code>
+    <Name xmlns="EX">实际价格</Name>
+    <Value xmlns="EX">点击赋值</Value>
+    <remarks xmlns="EX" />
+  </传出参数:dtIM>
+</ZGETMPRICE>

@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes"?>
+<ZTEST001>
+  <IMS.INPUT xmlns="IMS">
+    <MATNR xmlns="STRING">11</MATNR>
+    <MENGE xmlns="STRING">222</MENGE>
+  </IMS.INPUT>
+</ZTEST001>

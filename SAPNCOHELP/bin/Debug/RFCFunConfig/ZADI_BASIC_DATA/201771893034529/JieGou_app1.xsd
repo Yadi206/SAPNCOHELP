@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="EXT" xmlns:mstns="EXT" xmlns="EXT" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app1="EXT" xmlns:app2="String" xmlns:app3="Tables" xmlns:app5="IM" xmlns:app6="EX" xmlns:app4="STRING">
+  <xs:import namespace="STRING" schemaLocation="JieGou_app4.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app6.xsd" />
+  <xs:import namespace="IM" schemaLocation="JieGou_app5.xsd" />
+  <xs:import namespace="Tables" schemaLocation="JieGou_app3.xsd" />
+  <xs:import namespace="String" schemaLocation="JieGou_app2.xsd" />
+  <xs:element name="EXT.EX_EMSG">
+    <xs:complexType>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

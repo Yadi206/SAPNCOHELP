@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="yes"?>
+<ZMMI_DB_ZWLXX_READ>
+  <IMS.IM_SEARCH xmlns="IMS">
+    <ZDH xmlns="STRING">ASN20170718000001</ZDH>
+    <CHECH xml:space="preserve" xmlns="STRING"> </CHECH>
+  </IMS.IM_SEARCH>
+  <ET_ZWLXX xmlns="Tables">
+    <LIFNR xmlns="String">0001000063</LIFNR>
+    <NAME1 xmlns="String">CHENLX-原材料供应商-培训</NAME1>
+    <EKGRP xmlns="String" />
+    <EKNAM xmlns="String" />
+    <BSART xmlns="String" />
+    <ZDH xmlns="String">ASN20170718000001</ZDH>
+    <POSNR xmlns="String">000010</POSNR>
+    <MATNR xmlns="String">000000000001000495</MATNR>
+    <MAKTX xmlns="String">chenkx原材料-培训</MAKTX>
+    <MEINS xmlns="String">ST</MEINS>
+    <WERKS xmlns="String" />
+    <NAME2 xmlns="String" />
+    <LGORT xmlns="String" />
+    <LGOBE xmlns="String" />
+    <MENGE1 xmlns="String">0.000</MENGE1>
+    <MENGE2 xmlns="String">0.000</MENGE2>
+    <MENGE3 xmlns="String">0.000</MENGE3>
+    <DUAND xmlns="String" />
+    <TFLAG xmlns="String" />
+    <CHECH xmlns="String">鲁BW26N8</CHECH>
+    <CHENYR xmlns="String" />
+    <SHENFZ xmlns="String" />
+    <LIANXFS xmlns="String" />
+    <BZ xmlns="String" />
+  </ET_ZWLXX>
+  <传出参数:dtIM xmlns:传出参数="EX">
+    <Code xmlns="EX">EM_RTMSG</Code>
+    <Name xmlns="EX">消息文本</Name>
+    <Value xmlns="EX">点击赋值</Value>
+    <remarks xmlns="EX" />
+  </传出参数:dtIM>
+  <传出参数:dtIM xmlns:传出参数="EX">
+    <Code xmlns="EX">EM_RTYPE</Code>
+    <Name xmlns="EX">消息类型: S 成功,E 错误,W 警告,I 信息,A 中断</Name>
+    <Value xmlns="EX">点击赋值</Value>
+    <remarks xmlns="EX" />
+  </传出参数:dtIM>
+</ZMMI_DB_ZWLXX_READ>

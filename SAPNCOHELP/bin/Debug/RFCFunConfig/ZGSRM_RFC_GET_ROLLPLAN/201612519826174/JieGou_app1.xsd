@@ -1,0 +1,59 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="Tables" xmlns:mstns="Tables" xmlns="Tables" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app1="Tables" xmlns:app3="EX" xmlns:app2="IM">
+  <xs:import namespace="IM" schemaLocation="JieGou_app2.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app3.xsd" />
+  <xs:element name="IT_ITEM">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="MANDT" msdata:Caption="客户端" type="xs:string" minOccurs="0" />
+        <xs:element name="WERKS" msdata:Caption="工厂" type="xs:string" minOccurs="0" />
+        <xs:element name="PLVER" msdata:Caption="计划版本号" type="xs:string" minOccurs="0" />
+        <xs:element name="PROGROP" msdata:Caption="产品组" type="xs:string" minOccurs="0" />
+        <xs:element name="XIANT" msdata:Caption="线体" type="xs:string" minOccurs="0" />
+        <xs:element name="MATNR" msdata:Caption="物料号" type="xs:string" minOccurs="0" />
+        <xs:element name="PLDAT" msdata:Caption="计划完工" type="xs:string" minOccurs="0" />
+        <xs:element name="PSDAT" msdata:Caption="基本开始日期" type="xs:string" minOccurs="0" />
+        <xs:element name="WEEKS" msdata:Caption="周次" type="xs:string" minOccurs="0" />
+        <xs:element name="STAUS" msdata:Caption="计划状态" type="xs:string" minOccurs="0" />
+        <xs:element name="FORMNG" msdata:Caption="预测数量" type="xs:string" minOccurs="0" />
+        <xs:element name="SCHMNG" msdata:Caption="计划数量" type="xs:string" minOccurs="0" />
+        <xs:element name="MEINS" msdata:Caption="基本计量单位" type="xs:string" minOccurs="0" />
+        <xs:element name="ERDAT" msdata:Caption="记录的创建日期" type="xs:string" minOccurs="0" />
+        <xs:element name="ERTIM" msdata:Caption="创建的时间" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ZSSRMS_MAIN_PLAN">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="WERKS" msdata:Caption="注释" type="xs:string" minOccurs="0" />
+        <xs:element name="PLNUM" msdata:Caption="带36个字符的文本" type="xs:string" minOccurs="0" />
+        <xs:element name="AUFNR" msdata:Caption="注释" type="xs:string" minOccurs="0" />
+        <xs:element name="MATNR" msdata:Caption="注释" type="xs:string" minOccurs="0" />
+        <xs:element name="PROGROP" msdata:Caption="注释" type="xs:string" minOccurs="0" />
+        <xs:element name="AUART" msdata:Caption="注释" type="xs:string" minOccurs="0" />
+        <xs:element name="GLTRP" msdata:Caption="注释" type="xs:string" minOccurs="0" />
+        <xs:element name="GSTRP" msdata:Caption="注释" type="xs:string" minOccurs="0" />
+        <xs:element name="PLANNER" msdata:Caption="字符100" type="xs:string" minOccurs="0" />
+        <xs:element name="ENMNG" msdata:Caption="注释" type="xs:string" minOccurs="0" />
+        <xs:element name="FINISH_QTY" msdata:Caption="注释" type="xs:string" minOccurs="0" />
+        <xs:element name="ERFME" msdata:Caption="注释" type="xs:string" minOccurs="0" />
+        <xs:element name="MAKTX" msdata:Caption="字符100" type="xs:string" minOccurs="0" />
+        <xs:element name="VERSON" msdata:Caption="注释" type="xs:string" minOccurs="0" />
+        <xs:element name="VERDESP" msdata:Caption="注释" type="xs:string" minOccurs="0" />
+        <xs:element name="SCHEDULE" msdata:Caption="注释" type="xs:string" minOccurs="0" />
+        <xs:element name="ARBPL" msdata:Caption="注释" type="xs:string" minOccurs="0" />
+        <xs:element name="CRETYP" msdata:Caption="注释" type="xs:string" minOccurs="0" />
+        <xs:element name="SOURCE_TYPE" msdata:Caption="注释" type="xs:string" minOccurs="0" />
+        <xs:element name="SO_ITEM" msdata:Caption="注释" type="xs:string" minOccurs="0" />
+        <xs:element name="CREATE_USER" msdata:Caption="注释" type="xs:string" minOccurs="0" />
+        <xs:element name="UPDATE_USER" msdata:Caption="注释" type="xs:string" minOccurs="0" />
+        <xs:element name="XLOEK" msdata:Caption="注释" type="xs:string" minOccurs="0" />
+        <xs:element name="REMARK" msdata:Caption="字符512" type="xs:string" minOccurs="0" />
+        <xs:element name="READDDATE" msdata:Caption="字符字段，8 个字符长度" type="xs:string" minOccurs="0" />
+        <xs:element name="CREATE_DATE" msdata:Caption="注释" type="xs:string" minOccurs="0" />
+        <xs:element name="UPDATE_DATE" msdata:Caption="注释" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

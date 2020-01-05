@@ -1,0 +1,585 @@
+﻿**** Log file opened by process 2820 at 2019-06-03 09:14:51 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.12.0 running on 32-bit .NET Framework 4.0.30319.1
+Program: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.exe
+Working directory: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug
+Operating system: Windows Server 2003 Enterprise 32-bit Service Pack 2
+Processor: 1x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 512
+Hostname: YADI_2003_NET, IP address: 10.0.2.15, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2019-06-03 09:14:52.054 [Thread 1]
+Failure to create pool for destination RL700 (ORIGINAL) [CLIENT=105 LANG=ZH ASHOST=192.168.30.33 SYSNR=01 MAX_POOL_SIZE=10 IDLE_TIMEOUT=10 NAME=RL700]
+SAP.Middleware.Connector.RfcLogonException: Logon data incomplete. ---> SAP.Middleware.Connector.RfcAbapRuntimeException: Logon data incomplete.
+   在 SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   在 SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   在 SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   在 SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   在 SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2019-06-03 09:14:52.167 [Thread 1]
+[CLIENT=105 LANG=ZH ASHOST=192.168.30.33 SYSNR=01 MAX_POOL_SIZE=10 IDLE_TIMEOUT=10 NAME=RL700]
+SAP.Middleware.Connector.RfcLogonException: Logon data incomplete. ---> SAP.Middleware.Connector.RfcAbapRuntimeException: Logon data incomplete.
+   在 SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   在 SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   在 SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   在 SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   在 SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   在 SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   在 SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+**** Log file opened by process 3756 at 2019-06-12 16:06:41 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.12.0 running on 32-bit .NET Framework 4.0.30319.1
+Program: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.vshost.exe
+Working directory: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug
+Operating system: Windows Server 2003 Enterprise 32-bit Service Pack 2
+Processor: 1x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 512
+Hostname: YADI_2003_NET, IP address: 10.0.2.15, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2019-06-12 16:06:41.590 [Thread 9]
+Failure to create pool for destination AAA (ORIGINAL) [USER=huyd CLIENT=105 LANG=ZH ASHOST=192.168.30.33 SYSNR=01 MAX_POOL_SIZE=10 IDLE_TIMEOUT=10 NAME=AAA SAPROUTER=/H/221.234.25.30/W/DEV/H/]
+SAP.Middleware.Connector.RfcLogonException: Logon data incomplete. ---> SAP.Middleware.Connector.RfcAbapRuntimeException: Logon data incomplete.
+   在 SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   在 SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   在 SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   在 SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   在 SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2019-06-12 16:06:41.668 [Thread 9]
+[USER=huyd CLIENT=105 LANG=ZH ASHOST=192.168.30.33 SYSNR=01 MAX_POOL_SIZE=10 IDLE_TIMEOUT=10 NAME=AAA SAPROUTER=/H/221.234.25.30/W/DEV/H/]
+SAP.Middleware.Connector.RfcLogonException: Logon data incomplete. ---> SAP.Middleware.Connector.RfcAbapRuntimeException: Logon data incomplete.
+   在 SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   在 SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   在 SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   在 SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   在 SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   在 SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   在 SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+**** Log file opened by process 2192 at 2019-06-12 16:07:32 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.12.0 running on 32-bit .NET Framework 4.0.30319.1
+Program: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.vshost.exe
+Working directory: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug
+Operating system: Windows Server 2003 Enterprise 32-bit Service Pack 2
+Processor: 1x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 512
+Hostname: YADI_2003_NET, IP address: 10.0.2.15, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2019-06-12 16:07:32.246 [Thread 9]
+Failure to create pool for destination AAA (ORIGINAL) [USER=huyd CLIENT=105 LANG=ZH ASHOST=192.168.30.33 SYSNR=01 MAX_POOL_SIZE=10 IDLE_TIMEOUT=10 NAME=AAA SAPROUTER=/H/221.234.25.30/W/DEV/H/]
+SAP.Middleware.Connector.RfcLogonException: Logon data incomplete. ---> SAP.Middleware.Connector.RfcAbapRuntimeException: Logon data incomplete.
+   在 SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   在 SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   在 SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   在 SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   在 SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2019-06-12 16:07:32.277 [Thread 9]
+[USER=huyd CLIENT=105 LANG=ZH ASHOST=192.168.30.33 SYSNR=01 MAX_POOL_SIZE=10 IDLE_TIMEOUT=10 NAME=AAA SAPROUTER=/H/221.234.25.30/W/DEV/H/]
+SAP.Middleware.Connector.RfcLogonException: Logon data incomplete. ---> SAP.Middleware.Connector.RfcAbapRuntimeException: Logon data incomplete.
+   在 SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   在 SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   在 SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   在 SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   在 SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   在 SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   在 SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+>> Error entry 2019-06-12 16:08:42.434 [Thread 9]
+Failure to create pool for destination AAA (ORIGINAL) [USER=huyd CLIENT=105 LANG=ZH ASHOST=192.168.30.33 SYSNR=01 MAX_POOL_SIZE=10 IDLE_TIMEOUT=10 NAME=AAA SAPROUTER=/H/221.234.25.30/W/DEV/H/]
+SAP.Middleware.Connector.RfcLogonException: Logon data incomplete. ---> SAP.Middleware.Connector.RfcAbapRuntimeException: Logon data incomplete.
+   在 SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   在 SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   在 SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   在 SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   在 SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2019-06-12 16:08:42.465 [Thread 9]
+[USER=huyd CLIENT=105 LANG=ZH ASHOST=192.168.30.33 SYSNR=01 MAX_POOL_SIZE=10 IDLE_TIMEOUT=10 NAME=AAA SAPROUTER=/H/221.234.25.30/W/DEV/H/]
+SAP.Middleware.Connector.RfcLogonException: Logon data incomplete. ---> SAP.Middleware.Connector.RfcAbapRuntimeException: Logon data incomplete.
+   在 SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   在 SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   在 SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   在 SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   在 SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   在 SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   在 SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+>> Error entry 2019-06-12 16:08:48.543 [Thread 9]
+Failure to create pool for destination AAA (ORIGINAL) [USER=huyd CLIENT=105 LANG=ZH ASHOST=192.168.30.33 SYSNR=01 MAX_POOL_SIZE=10 IDLE_TIMEOUT=10 NAME=AAA SAPROUTER=/H/221.234.25.30/W/DEV/H/]
+SAP.Middleware.Connector.RfcLogonException: Logon data incomplete. ---> SAP.Middleware.Connector.RfcAbapRuntimeException: Logon data incomplete.
+   在 SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   在 SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   在 SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   在 SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   在 SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2019-06-12 16:08:48.574 [Thread 9]
+[USER=huyd CLIENT=105 LANG=ZH ASHOST=192.168.30.33 SYSNR=01 MAX_POOL_SIZE=10 IDLE_TIMEOUT=10 NAME=AAA SAPROUTER=/H/221.234.25.30/W/DEV/H/]
+SAP.Middleware.Connector.RfcLogonException: Logon data incomplete. ---> SAP.Middleware.Connector.RfcAbapRuntimeException: Logon data incomplete.
+   在 SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   在 SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   在 SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   在 SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   在 SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   在 SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   在 SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+**** Log file opened by process 3192 at 2019-06-12 16:13:05 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.12.0 running on 32-bit .NET Framework 4.0.30319.1
+Program: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.vshost.exe
+Working directory: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug
+Operating system: Windows Server 2003 Enterprise 32-bit Service Pack 2
+Processor: 1x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 512
+Hostname: YADI_2003_NET, IP address: 10.0.2.15, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2019-06-12 16:13:05.902 [Thread 9]
+Failure to create pool for destination AAA (ORIGINAL) [USER=huyd CLIENT=105 LANG=ZH ASHOST=192.168.30.33 SYSNR=01 MAX_POOL_SIZE=10 IDLE_TIMEOUT=10 NAME=AAA SAPROUTER=/H/221.234.25.30/W/DEV/H/]
+SAP.Middleware.Connector.RfcLogonException: Logon data incomplete. ---> SAP.Middleware.Connector.RfcAbapRuntimeException: Logon data incomplete.
+   在 SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   在 SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   在 SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   在 SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   在 SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2019-06-12 16:13:05.918 [Thread 9]
+[USER=huyd CLIENT=105 LANG=ZH ASHOST=192.168.30.33 SYSNR=01 MAX_POOL_SIZE=10 IDLE_TIMEOUT=10 NAME=AAA SAPROUTER=/H/221.234.25.30/W/DEV/H/]
+SAP.Middleware.Connector.RfcLogonException: Logon data incomplete. ---> SAP.Middleware.Connector.RfcAbapRuntimeException: Logon data incomplete.
+   在 SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   在 SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   在 SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   在 SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   在 SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   在 SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   在 SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+>> Error entry 2019-06-12 16:13:56.605 [Thread 9]
+Failure to create pool for destination AAA (ORIGINAL) [USER=huyd CLIENT=105 LANG=ZH ASHOST=192.168.30.33 SYSNR=01 MAX_POOL_SIZE=10 IDLE_TIMEOUT=10 NAME=AAA SAPROUTER=/H/221.234.25.30/W/DEV/H/]
+SAP.Middleware.Connector.RfcLogonException: Logon data incomplete. ---> SAP.Middleware.Connector.RfcAbapRuntimeException: Logon data incomplete.
+   在 SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   在 SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   在 SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   在 SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   在 SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2019-06-12 16:13:56.637 [Thread 9]
+[USER=huyd CLIENT=105 LANG=ZH ASHOST=192.168.30.33 SYSNR=01 MAX_POOL_SIZE=10 IDLE_TIMEOUT=10 NAME=AAA SAPROUTER=/H/221.234.25.30/W/DEV/H/]
+SAP.Middleware.Connector.RfcLogonException: Logon data incomplete. ---> SAP.Middleware.Connector.RfcAbapRuntimeException: Logon data incomplete.
+   在 SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   在 SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   在 SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   在 SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   在 SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   在 SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   在 SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+**** Log file opened by process 2204 at 2019-06-12 16:15:14 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.12.0 running on 32-bit .NET Framework 4.0.30319.1
+Program: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.vshost.exe
+Working directory: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug
+Operating system: Windows Server 2003 Enterprise 32-bit Service Pack 2
+Processor: 1x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 512
+Hostname: YADI_2003_NET, IP address: 10.0.2.15, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2019-06-12 16:15:14.199 [Thread 10]
+SAP.Middleware.Connector.RfcInvalidStateException: Hard-coded logon parameters not allowed when using a DestinationConfiguration
+   在 SAP.Middleware.Connector.RfcDestinationManager.GetDestination(RfcConfigParameters parameters)
+**** Log file opened by process 3712 at 2019-06-12 16:18:14 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.12.0 running on 32-bit .NET Framework 4.0.30319.1
+Program: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.vshost.exe
+Working directory: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug
+Operating system: Windows Server 2003 Enterprise 32-bit Service Pack 2
+Processor: 1x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 512
+Hostname: YADI_2003_NET, IP address: 10.0.2.15, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2019-06-12 16:18:14.152 [Thread 10]
+Failure to create pool for destination RL700 (ORIGINAL) [USER=SYOA PASSWD=******** CLIENT=105 LANG=ZH ASHOST=192.168.30.33 SYSNR=01 MAX_POOL_SIZE=10 IDLE_TIMEOUT=10 NAME=RL700]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.30.33:3301' not reached
+TIME        Wed Jun 12 16:18:14 2019
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3285
+DETAIL      NiPConnect2: 192.168.30.33:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     4
+
+   在 SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2019-06-12 16:18:14.184 [Thread 10]
+[USER=SYOA PASSWD=******** CLIENT=105 LANG=ZH ASHOST=192.168.30.33 SYSNR=01 MAX_POOL_SIZE=10 IDLE_TIMEOUT=10 NAME=RL700]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.30.33:3301' not reached
+TIME        Wed Jun 12 16:18:14 2019
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3285
+DETAIL      NiPConnect2: 192.168.30.33:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     4
+
+   在 SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   在 SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   在 SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+**** Log file opened by process 3620 at 2019-06-12 16:22:27 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.12.0 running on 32-bit .NET Framework 4.0.30319.1
+Program: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.vshost.exe
+Working directory: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug
+Operating system: Windows Server 2003 Enterprise 32-bit Service Pack 2
+Processor: 1x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 512
+Hostname: YADI_2003_NET, IP address: 10.0.2.15, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2019-06-12 16:22:27.980 [Thread 10]
+Failure to create pool for destination AAA (ORIGINAL) [USER=huyd CLIENT=105 LANG=ZH ASHOST=192.168.30.33 SYSNR=01 MAX_POOL_SIZE=10 IDLE_TIMEOUT=10 NAME=AAA SAPROUTER=/H/221.234.25.30/W/DEV/H/]
+SAP.Middleware.Connector.RfcLogonException: Logon data incomplete. ---> SAP.Middleware.Connector.RfcAbapRuntimeException: Logon data incomplete.
+   在 SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   在 SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   在 SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   在 SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   在 SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2019-06-12 16:22:27.996 [Thread 10]
+[USER=huyd CLIENT=105 LANG=ZH ASHOST=192.168.30.33 SYSNR=01 MAX_POOL_SIZE=10 IDLE_TIMEOUT=10 NAME=AAA SAPROUTER=/H/221.234.25.30/W/DEV/H/]
+SAP.Middleware.Connector.RfcLogonException: Logon data incomplete. ---> SAP.Middleware.Connector.RfcAbapRuntimeException: Logon data incomplete.
+   在 SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   在 SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   在 SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   在 SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   在 SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   在 SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   在 SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+**** Log file opened by process 1844 at 2019-09-06 18:01:45 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.12.0 running on 32-bit .NET Framework 4.0.30319.1
+Program: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.vshost.exe
+Working directory: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug
+Operating system: Windows Server 2003 Enterprise 32-bit Service Pack 2
+Processor: 1x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 512
+Hostname: YADI_2003_NET, IP address: 10.0.2.15, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2019-09-06 18:01:45.515 [Thread 10]
+Failure to create pool for destination RL700 (ORIGINAL) [USER=SYOA PASSWD=******** CLIENT=105 LANG=ZH ASHOST=192.168.30.33 SYSNR=01 MAX_POOL_SIZE=10 IDLE_TIMEOUT=10 NAME=RL700]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.30.33:3301' not reached
+TIME        Fri Sep 06 18:01:45 2019
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3285
+DETAIL      NiPConnect2: 192.168.30.33:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   在 SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2019-09-06 18:01:45.531 [Thread 10]
+[USER=SYOA PASSWD=******** CLIENT=105 LANG=ZH ASHOST=192.168.30.33 SYSNR=01 MAX_POOL_SIZE=10 IDLE_TIMEOUT=10 NAME=RL700]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.30.33:3301' not reached
+TIME        Fri Sep 06 18:01:45 2019
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3285
+DETAIL      NiPConnect2: 192.168.30.33:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   在 SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   在 SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   在 SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+**** Log file opened by process 3008 at 2019-09-06 18:04:06 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.12.0 running on 32-bit .NET Framework 4.0.30319.1
+Program: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.vshost.exe
+Working directory: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug
+Operating system: Windows Server 2003 Enterprise 32-bit Service Pack 2
+Processor: 1x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 512
+Hostname: YADI_2003_NET, IP address: 10.0.2.15, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2019-09-06 18:04:06.472 [Thread 9]
+SAP.Middleware.Connector.RfcInvalidStateException: Cannot get destination RL700 -- no destination configuration registered
+   在 SAP.Middleware.Connector.RfcDestinationManager.GetDestination(String destinationName)
+**** Log file opened by process 3236 at 2019-09-06 18:04:35 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.12.0 running on 32-bit .NET Framework 4.0.30319.1
+Program: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.vshost.exe
+Working directory: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug
+Operating system: Windows Server 2003 Enterprise 32-bit Service Pack 2
+Processor: 1x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 512
+Hostname: YADI_2003_NET, IP address: 10.0.2.15, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2019-09-06 18:04:35.449 [Thread 10]
+Failure to create pool for destination AAA (ORIGINAL) [USER=huyadong CLIENT=125 LANG=ZH ASHOST=172.16.43.41 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=10 NAME=AAA SAPROUTER=]
+SAP.Middleware.Connector.RfcLogonException: Incomplete logon data. ---> SAP.Middleware.Connector.RfcAbapRuntimeException: Incomplete logon data.
+   在 SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   在 SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   在 SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   在 SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   在 SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2019-09-06 18:04:35.572 [Thread 10]
+[USER=huyadong CLIENT=125 LANG=ZH ASHOST=172.16.43.41 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=10 NAME=AAA SAPROUTER=]
+SAP.Middleware.Connector.RfcLogonException: Incomplete logon data. ---> SAP.Middleware.Connector.RfcAbapRuntimeException: Incomplete logon data.
+   在 SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   在 SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   在 SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   在 SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   在 SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   在 SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   在 SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+**** Log file opened by process 3840 at 2019-09-06 18:12:15 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.12.0 running on 32-bit .NET Framework 4.0.30319.1
+Program: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.vshost.exe
+Working directory: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug
+Operating system: Windows Server 2003 Enterprise 32-bit Service Pack 2
+Processor: 1x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 512
+Hostname: YADI_2003_NET, IP address: 10.0.2.15, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2019-09-06 18:12:15.612 [Thread 9]
+SAP.Middleware.Connector.RfcInvalidParameterException: No destination name provided - specify the parameter NAME
+   在 SAP.Middleware.Connector.RfcDestinationManager.GetDestination(RfcConfigParameters parameters)
+**** Log file opened by process 2660 at 2019-09-06 18:19:43 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.12.0 running on 32-bit .NET Framework 4.0.30319.1
+Program: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.vshost.exe
+Working directory: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug
+Operating system: Windows Server 2003 Enterprise 32-bit Service Pack 2
+Processor: 1x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 512
+Hostname: YADI_2003_NET, IP address: 10.0.2.15, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2019-09-06 18:19:43.371 [Thread 9]
+SAP.Middleware.Connector.RfcInvalidParameterException: No destination name provided - specify the parameter NAME
+   在 SAP.Middleware.Connector.RfcDestinationManager.GetDestination(RfcConfigParameters parameters)
+**** Log file opened by process 3080 at 2019-09-06 18:20:04 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.12.0 running on 32-bit .NET Framework 4.0.30319.1
+Program: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.vshost.exe
+Working directory: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug
+Operating system: Windows Server 2003 Enterprise 32-bit Service Pack 2
+Processor: 1x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 512
+Hostname: YADI_2003_NET, IP address: 10.0.2.15, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2019-09-06 18:20:04.145 [Thread 10]
+SAP.Middleware.Connector.RfcInvalidStateException: Cannot get destination RL700 -- no destination configuration registered
+   在 SAP.Middleware.Connector.RfcDestinationManager.GetDestination(String destinationName)
+**** Log file opened by process 2340 at 2019-09-06 18:22:05 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.12.0 running on 32-bit .NET Framework 4.0.30319.1
+Program: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.vshost.exe
+Working directory: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug
+Operating system: Windows Server 2003 Enterprise 32-bit Service Pack 2
+Processor: 1x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 512
+Hostname: YADI_2003_NET, IP address: 10.0.2.15, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2019-09-06 18:22:05.378 [Thread 10]
+[ASHOST=172.16.43.41 SYSNR=00 USER=huyadong PASSWD=******** CLIENT=125 LANG=ZH NAME=HYDRFC]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function ZHYDTEST not available: FU_NOT_FOUND: 功能模块 ZHYDTEST 不存在
+   在 SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   在 SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   在 SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2019-09-06 18:22:05.378 [Thread 10]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function ZHYDTEST not available: FU_NOT_FOUND: 功能模块 ZHYDTEST 不存在
+   在 SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   在 SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   在 SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   在 SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)
+**** Log file opened by process 3168 at 2019-09-09 23:16:23 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.12.0 running on 32-bit .NET Framework 4.0.30319.1
+Program: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.vshost.exe
+Working directory: C:\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug
+Operating system: Windows Server 2003 Enterprise 32-bit Service Pack 2
+Processor: 1x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 512
+Hostname: YADI_2003_NET, IP address: 10.0.2.15, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2019-09-09 23:16:23.685 [Thread 10]
+Failure to create pool for destination HYDRFC (ORIGINAL) [ASHOST=172.16.43.41 SYSNR=00 USER=huyadong PASSWD=******** CLIENT=125 LANG=ZH NAME=HYDRFC]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.43.41:3300' not reached
+TIME        Mon Sep 09 23:16:23 2019
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3285
+DETAIL      NiPConnect2: 172.16.43.41:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   在 SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2019-09-09 23:16:23.716 [Thread 10]
+[ASHOST=172.16.43.41 SYSNR=00 USER=huyadong PASSWD=******** CLIENT=125 LANG=ZH NAME=HYDRFC]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.16.43.41:3300' not reached
+TIME        Mon Sep 09 23:16:23 2019
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3285
+DETAIL      NiPConnect2: 172.16.43.41:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   在 SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   在 SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   在 SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)

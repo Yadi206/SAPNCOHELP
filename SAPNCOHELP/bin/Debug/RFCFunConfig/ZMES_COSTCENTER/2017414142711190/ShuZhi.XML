@@ -1,0 +1,1192 @@
+<?xml version="1.0" standalone="yes"?>
+<ZMES_COSTCENTER>
+  <T_TAB xmlns="Tables">
+    <BUKRS>RU01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>SK01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HOSA104</KOSTL>
+    <KTEXT>Workshop-OSA</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HPMC103</KOSTL>
+    <KTEXT>PMC-MF</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>CA01</BUKRS>
+    <KOSTL>0000040200</KOSTL>
+    <KTEXT>Human Resources</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220SCM104</KOSTL>
+    <KTEXT>SCM</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220PUR104</KOSTL>
+    <KTEXT>PUR</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230IED101</KOSTL>
+    <KTEXT>IE</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230SCM101</KOSTL>
+    <KTEXT>SCM</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230MFG104</KOSTL>
+    <KTEXT>MFG</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>US01</BUKRS>
+    <KOSTL>0000040200</KOSTL>
+    <KTEXT>Human Resources</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250101005</KOSTL>
+    <KTEXT>IT (Information Tech</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200101009</KOSTL>
+    <KTEXT>第W生产线</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250103004</KOSTL>
+    <KTEXT>Special Project</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250106004</KOSTL>
+    <KTEXT>Mesa</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250104002</KOSTL>
+    <KTEXT>MOCVD</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250104004</KOSTL>
+    <KTEXT>Photo</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250106008</KOSTL>
+    <KTEXT>COS</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230HTRX06</KOSTL>
+    <KTEXT>123</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200101002</KOSTL>
+    <KTEXT>TRX（生产）</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200101006</KOSTL>
+    <KTEXT>光电产品部（研发）</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200102001</KOSTL>
+    <KTEXT>OSA（制造）</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200104003</KOSTL>
+    <KTEXT>TCN研发</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200901003</KOSTL>
+    <KTEXT>黄岛综管部</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200901012</KOSTL>
+    <KTEXT>中心办公室</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>CZ01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP-DUMMY</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>US01</BUKRS>
+    <KOSTL>0000010100</KOSTL>
+    <KTEXT>Sales</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HACOB04</KOSTL>
+    <KTEXT>Workshop-Avago COB T</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HJ10G04</KOSTL>
+    <KTEXT>Workshop-JDSU 10G Tr</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HPMC102</KOSTL>
+    <KTEXT>PMC-SL</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HPRD103</KOSTL>
+    <KTEXT>Process</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>BE01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>Dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>CA01</BUKRS>
+    <KOSTL>0000030100</KOSTL>
+    <KTEXT>Production</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>CA01</BUKRS>
+    <KOSTL>0000040300</KOSTL>
+    <KTEXT>Legal</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>DE02</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>KR01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220NPI101</KOSTL>
+    <KTEXT>NPI</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220ADM102</KOSTL>
+    <KTEXT>AMD</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220TO5605</KOSTL>
+    <KTEXT>TO56</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230PUR101</KOSTL>
+    <KTEXT>PUR</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230OFF102</KOSTL>
+    <KTEXT>HKOffice</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230P&amp;D103</KOSTL>
+    <KTEXT>R&amp;D²úÆ·¿ª·¢²¿</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230SCM104</KOSTL>
+    <KTEXT>SCM</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230SMTD06</KOSTL>
+    <KTEXT>SMT</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>US01</BUKRS>
+    <KOSTL>0000020100</KOSTL>
+    <KTEXT>Marketing</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250104007</KOSTL>
+    <KTEXT>Chip-Coating</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250104010</KOSTL>
+    <KTEXT>Packaging</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250102011</KOSTL>
+    <KTEXT>CHIP 2</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250106010</KOSTL>
+    <KTEXT>Module</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250106011</KOSTL>
+    <KTEXT>Harris</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200101001</KOSTL>
+    <KTEXT>制造一厂</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250101006</KOSTL>
+    <KTEXT>Facility and Machine</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200901001</KOSTL>
+    <KTEXT>财务经管部</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200901007</KOSTL>
+    <KTEXT>质量部（制造）</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200901008</KOSTL>
+    <KTEXT>质量部（管理）</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>CO01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP-Dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>KZ01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP-Dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>US01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT />
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>TR01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>UA01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HOFF103</KOSTL>
+    <KTEXT>HK Office-MF</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HSCM103</KOSTL>
+    <KTEXT>SCM</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HSF10G4</KOSTL>
+    <KTEXT>Workshop-SFP 10G Tr</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HTO5604</KOSTL>
+    <KTEXT>Workshop-TO56</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>CN01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP-Dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>DE01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>HU01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220SF10G5</KOSTL>
+    <KTEXT>HisenseSFP10GTrx</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230FID101</KOSTL>
+    <KTEXT>Finance</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230NPI103</KOSTL>
+    <KTEXT>NPIÐÂÆ·µ¼Èë²¿</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230ODM103</KOSTL>
+    <KTEXT>4220ODM103</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230EQUI04</KOSTL>
+    <KTEXT>EQUIPMENT</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230PED104</KOSTL>
+    <KTEXT>PE</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230QAD104</KOSTL>
+    <KTEXT>QAÖÊÁ¿²¿</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230HTRX06</KOSTL>
+    <KTEXT>HisenseTrx</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230TO5606</KOSTL>
+    <KTEXT>TO56</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>US01</BUKRS>
+    <KOSTL>0000040100</KOSTL>
+    <KTEXT>Finance</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250101002</KOSTL>
+    <KTEXT>Accounting/Finance</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250101003</KOSTL>
+    <KTEXT>QA (Quality Assuranc</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250106006</KOSTL>
+    <KTEXT>Chip-Coating</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250104005</KOSTL>
+    <KTEXT>Mesa</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250104008</KOSTL>
+    <KTEXT>Chip-Testing/Dicing</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250104023</KOSTL>
+    <KTEXT>DEREK TEST</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200101001</KOSTL>
+    <KTEXT>TRX（制造）</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200102002</KOSTL>
+    <KTEXT>OSA（生产）</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200103002</KOSTL>
+    <KTEXT>PTX（生产）</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200103003</KOSTL>
+    <KTEXT>PTX研发</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200104002</KOSTL>
+    <KTEXT>TCN（生产）</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200201001</KOSTL>
+    <KTEXT>机顶盒开发-平移</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200201002</KOSTL>
+    <KTEXT>机顶盒销售-平移</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200901002</KOSTL>
+    <KTEXT>总经办</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>DE01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP-Dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>HU01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP-Dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>RU01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP-Dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>SK01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP-Dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>NO01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HOFF102</KOSTL>
+    <KTEXT>HK Office-SL</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>CO01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>FI01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>JP01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220FID102</KOSTL>
+    <KTEXT>Finance</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220A10G05</KOSTL>
+    <KTEXT>Avago10GTrx</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230999999</KOSTL>
+    <KTEXT>AvagoÓëJDSUÑùÆ·</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230MOSA06</KOSTL>
+    <KTEXT>MMOSA</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230OPNEX6</KOSTL>
+    <KTEXT>OPNEXT</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230SOSA06</KOSTL>
+    <KTEXT>SMOSA</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250101001</KOSTL>
+    <KTEXT>Administration</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>US01</BUKRS>
+    <KOSTL>0000040300</KOSTL>
+    <KTEXT>Legal</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250101004</KOSTL>
+    <KTEXT>PMC</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220ACOB06</KOSTL>
+    <KTEXT>AvagoCOBTrx</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200101003</KOSTL>
+    <KTEXT>光电研发部</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200101005</KOSTL>
+    <KTEXT>光电销售部</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200102003</KOSTL>
+    <KTEXT>OSA研发</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200104001</KOSTL>
+    <KTEXT>TCN（制造）</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200301001</KOSTL>
+    <KTEXT>播放器研发</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200401001</KOSTL>
+    <KTEXT>OBX（制造）</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200401004</KOSTL>
+    <KTEXT>OBX销售</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>DE02</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP-Dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HA10G04</KOSTL>
+    <KTEXT>Workshop-Avago 10G T</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HJDSU04</KOSTL>
+    <KTEXT>Workshop-JDSU Non10G</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HMOSA04</KOSTL>
+    <KTEXT>Workshop-MM OSA</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HNPI101</KOSTL>
+    <KTEXT>NPI PE</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HSOSA04</KOSTL>
+    <KTEXT>Workshop-SM OSA</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>ES01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP-DUMMY</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220QAD101</KOSTL>
+    <KTEXT>QA</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220OFF103</KOSTL>
+    <KTEXT>HKOffice</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220PED104</KOSTL>
+    <KTEXT>PE</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220PMC104</KOSTL>
+    <KTEXT>PMC-MF</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220OPNEX5</KOSTL>
+    <KTEXT>WORKSHOP-OPNEX</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220OSA105</KOSTL>
+    <KTEXT>OSA</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220SMTD05</KOSTL>
+    <KTEXT>SMT</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230HRA101</KOSTL>
+    <KTEXT>HR/AMD</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230PMC104</KOSTL>
+    <KTEXT>PMC</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230PUR104</KOSTL>
+    <KTEXT>PUR</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230ACOB06</KOSTL>
+    <KTEXT>AvagoCOBTrx</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230ARCH06</KOSTL>
+    <KTEXT>ARCHCOM</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220999999</KOSTL>
+    <KTEXT>Avago与JDSU样品</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250102003</KOSTL>
+    <KTEXT>Non Hisense/Ligent</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250106003</KOSTL>
+    <KTEXT>Photo</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250104003</KOSTL>
+    <KTEXT>Grating</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250104009</KOSTL>
+    <KTEXT>COS</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250104013</KOSTL>
+    <KTEXT>Process Group</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250106009</KOSTL>
+    <KTEXT>Packaging</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200105001</KOSTL>
+    <KTEXT>PON研发</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200202001</KOSTL>
+    <KTEXT>机顶盒开发-直播星</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200202002</KOSTL>
+    <KTEXT>机顶盒销售-直播星</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200401002</KOSTL>
+    <KTEXT>OBX（生产）</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200402001</KOSTL>
+    <KTEXT>数字家庭开发</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200901009</KOSTL>
+    <KTEXT>质量部（研发）</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>KR01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP-Dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>TW01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP-Dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>UA01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP-Dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HA01G04</KOSTL>
+    <KTEXT>Workshop-Avago 1G Tr</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>PL01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>SE01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HMFG103</KOSTL>
+    <KTEXT>MFG</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HSFP4G4</KOSTL>
+    <KTEXT>Workshop-SFP 4G Tr</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220HRD102</KOSTL>
+    <KTEXT>HR</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220MFG104</KOSTL>
+    <KTEXT>MFG</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230ITD101</KOSTL>
+    <KTEXT>IT</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230A0TO06</KOSTL>
+    <KTEXT>AvagoTOTrx</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230JDSU06</KOSTL>
+    <KTEXT>JDSUNon10GTrx</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250103003</KOSTL>
+    <KTEXT>Module Design</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250106002</KOSTL>
+    <KTEXT>Grating</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250106005</KOSTL>
+    <KTEXT>Metalization/Lapping</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250104006</KOSTL>
+    <KTEXT>Metalization/Lapping</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250103009</KOSTL>
+    <KTEXT>EML&amp;DFB CHIP</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250104012</KOSTL>
+    <KTEXT>Harris</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200101002</KOSTL>
+    <KTEXT>制造一厂1060</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230PED204</KOSTL>
+    <KTEXT>PED</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200101004</KOSTL>
+    <KTEXT>光电预研部</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200103001</KOSTL>
+    <KTEXT>PTX（制造）</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200301002</KOSTL>
+    <KTEXT>播放器销售</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200302002</KOSTL>
+    <KTEXT>IPTV销售</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200901004</KOSTL>
+    <KTEXT>人力资源部</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200901006</KOSTL>
+    <KTEXT>采购部</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>PL01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP-Dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>0001</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HFID102</KOSTL>
+    <KTEXT>Finance</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HHRA102</KOSTL>
+    <KTEXT>HR/ADM</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>CA01</BUKRS>
+    <KOSTL>0000040100</KOSTL>
+    <KTEXT>Finance</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>CZ01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP DUMMY</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220J10G05</KOSTL>
+    <KTEXT>JDSU10GTrx</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220SFP4G5</KOSTL>
+    <KTEXT>HisenseSFP4GTrx</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220SOSA05</KOSTL>
+    <KTEXT>SMOSA</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230PRD103</KOSTL>
+    <KTEXT>Process¹¤Ðò¿ª·¢²¿</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>US01</BUKRS>
+    <KOSTL>0000030100</KOSTL>
+    <KTEXT>Production</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250102002</KOSTL>
+    <KTEXT>Ligent</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250103001</KOSTL>
+    <KTEXT>EML&amp;DFB CHIP</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250103002</KOSTL>
+    <KTEXT>APD CHIP</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250104011</KOSTL>
+    <KTEXT>Module</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200101007</KOSTL>
+    <KTEXT>光电产品部（销售）</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200101008</KOSTL>
+    <KTEXT>武汉研究所</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200402002</KOSTL>
+    <KTEXT>数字家庭销售</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200901005</KOSTL>
+    <KTEXT>计划部</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200901010</KOSTL>
+    <KTEXT>工程部</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200901011</KOSTL>
+    <KTEXT>研发中心结构所</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>NO01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP-Dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>TW01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HIET102</KOSTL>
+    <KTEXT>IE/IT</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HOPNEX4</KOSTL>
+    <KTEXT>WORKSHOP-OPNEX</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HPED103</KOSTL>
+    <KTEXT>PE</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HQAD102</KOSTL>
+    <KTEXT>QA</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4210</BUKRS>
+    <KOSTL>HSMTD04</KOSTL>
+    <KTEXT>Workshop-SMT</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>BE01</BUKRS>
+    <KOSTL>0000001000</KOSTL>
+    <KTEXT>Top management</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>CA01</BUKRS>
+    <KOSTL>0000010100</KOSTL>
+    <KTEXT>Sales</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>CA01</BUKRS>
+    <KOSTL>0000020100</KOSTL>
+    <KTEXT>Marketing</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>CA01</BUKRS>
+    <KOSTL>0000090100</KOSTL>
+    <KTEXT>Assessments</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>KZ01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220PRD101</KOSTL>
+    <KTEXT>Process</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220IED102</KOSTL>
+    <KTEXT>IE</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220ITD102</KOSTL>
+    <KTEXT>IT</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220MOSA05</KOSTL>
+    <KTEXT>MMOSA</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220A01G05</KOSTL>
+    <KTEXT>Avago1GTrx</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220ACOB05</KOSTL>
+    <KTEXT>AvagoCOBTrx</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4220</BUKRS>
+    <KOSTL>4220JDSU05</KOSTL>
+    <KTEXT>JDSUNon10GTrx</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230MRT102</KOSTL>
+    <KTEXT>MRTÊÐ³¡²¿</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230QAD103</KOSTL>
+    <KTEXT>QAÖÊÁ¿²¿</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4230</BUKRS>
+    <KOSTL>4230J10G06</KOSTL>
+    <KTEXT>JDSU10GTrx</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>US01</BUKRS>
+    <KOSTL>0000090100</KOSTL>
+    <KTEXT>Assessments</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250106001</KOSTL>
+    <KTEXT>MOCVD</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250104001</KOSTL>
+    <KTEXT>QA</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250106007</KOSTL>
+    <KTEXT>Chip-Testing/Dicing</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250104022</KOSTL>
+    <KTEXT>MOCVD Test</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200102001</KOSTL>
+    <KTEXT>杨文卿</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4250</BUKRS>
+    <KOSTL>4250102001</KOSTL>
+    <KTEXT>Hisense</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200302001</KOSTL>
+    <KTEXT>IPTV研发</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>4200</BUKRS>
+    <KOSTL>4200401003</KOSTL>
+    <KTEXT>OBX研发</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>0001</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP-Dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>FI01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP-Dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>JP01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP-Dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>SE01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP-Dummy</KTEXT>
+  </T_TAB>
+  <T_TAB xmlns="Tables">
+    <BUKRS>TR01</BUKRS>
+    <KOSTL>SAP-DUMMY</KOSTL>
+    <KTEXT>SAP-Dummy</KTEXT>
+  </T_TAB>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">I_BUKRS</Code>
+    <Name xmlns="IM">公司代码</Name>
+    <Value xmlns="IM" />
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传入参数:IM xmlns:传入参数="IM">
+    <Code xmlns="IM">I_KOSTL</Code>
+    <Name xmlns="IM">成本中心</Name>
+    <Value xmlns="IM" />
+    <remarks xmlns="IM" />
+  </传入参数:IM>
+  <传出参数:dtIM xmlns:传出参数="EX">
+    <Code xmlns="EX">RTMSG</Code>
+    <Name xmlns="EX">消息文本</Name>
+    <Value xmlns="EX">查询成功</Value>
+    <remarks xmlns="EX" />
+  </传出参数:dtIM>
+  <传出参数:dtIM xmlns:传出参数="EX">
+    <Code xmlns="EX">RTYPE</Code>
+    <Name xmlns="EX">消息类型: S 成功,E 错误,W 警告,I 信息,A 中断</Name>
+    <Value xmlns="EX">S</Value>
+    <remarks xmlns="EX" />
+  </传出参数:dtIM>
+</ZMES_COSTCENTER>

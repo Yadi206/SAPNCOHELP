@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="Tables" xmlns:mstns="Tables" xmlns="Tables" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app1="Tables" xmlns:app3="EX" xmlns:app2="IM">
+  <xs:import namespace="IM" schemaLocation="JieGou_app2.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app3.xsd" />
+  <xs:element name="T_HEADER">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="WERKS" msdata:Caption="工厂" type="xs:string" minOccurs="0" />
+        <xs:element name="MATNR" msdata:Caption="物料号" type="xs:string" minOccurs="0" />
+        <xs:element name="VERID" msdata:Caption="生产版本" type="xs:string" minOccurs="0" />
+        <xs:element name="LOEKZ" msdata:Caption="BOM 删除标志" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="T_ITEM">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="IDNRK" msdata:Caption="BOM 组件" type="xs:string" minOccurs="0" />
+        <xs:element name="MAKTX" msdata:Caption="物料描述（短文本）" type="xs:string" minOccurs="0" />
+        <xs:element name="MENGE" msdata:Caption="组件单机用量" type="xs:string" minOccurs="0" />
+        <xs:element name="MEINS" msdata:Caption="组件计量单位" type="xs:string" minOccurs="0" />
+        <xs:element name="LGORT" msdata:Caption="库存地点" type="xs:string" minOccurs="0" />
+        <xs:element name="STLKN" msdata:Caption="BOM 项目节点号" type="xs:string" minOccurs="0" />
+        <xs:element name="AUFPL" msdata:Caption="订单中工序的工艺路线号" type="xs:string" minOccurs="0" />
+        <xs:element name="ARBPL" msdata:Caption="工作中心" type="xs:string" minOccurs="0" />
+        <xs:element name="KTEXT" msdata:Caption="短描述" type="xs:string" minOccurs="0" />
+        <xs:element name="LKENZ" msdata:Caption="删除标识" type="xs:string" minOccurs="0" />
+        <xs:element name="STLNR" msdata:Caption="物料单" type="xs:string" minOccurs="0" />
+        <xs:element name="MATNR" msdata:Caption="物料号" type="xs:string" minOccurs="0" />
+        <xs:element name="ALPOS" msdata:Caption="指示符：替代项目" type="xs:string" minOccurs="0" />
+        <xs:element name="ALPGR" msdata:Caption="替代项目：组" type="xs:string" minOccurs="0" />
+        <xs:element name="ALPRF" msdata:Caption="备选项目：分类订单" type="xs:string" minOccurs="0" />
+        <xs:element name="EWAHR" msdata:Caption="使用可能性按 % (BTCI)" type="xs:string" minOccurs="0" />
+        <xs:element name="SANFE" msdata:Caption="标志: 与生产相关项目" type="xs:string" minOccurs="0" />
+        <xs:element name="POTX1" msdata:Caption="BOM 项目文本（行1）" type="xs:string" minOccurs="0" />
+        <xs:element name="POTX2" msdata:Caption="BOM 项目文本 （行 2）" type="xs:string" minOccurs="0" />
+        <xs:element name="ZWH" msdata:Caption="位号" type="xs:string" minOccurs="0" />
+        <xs:element name="RGEKZ" msdata:Caption="标识：反冲" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

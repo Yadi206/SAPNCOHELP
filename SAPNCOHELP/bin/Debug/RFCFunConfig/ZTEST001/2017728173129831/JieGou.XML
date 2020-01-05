@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="ZTEST001" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:app1="STRING" xmlns:app2="IMS" xmlns:app3="Tables" xmlns:app4="IM" xmlns:app5="EX">
+  <xs:import namespace="EX" schemaLocation="JieGou_app5.xsd" />
+  <xs:import namespace="Tables" schemaLocation="JieGou_app3.xsd" />
+  <xs:import namespace="STRING" schemaLocation="JieGou_app1.xsd" />
+  <xs:import namespace="IM" schemaLocation="JieGou_app4.xsd" />
+  <xs:import namespace="IMS" schemaLocation="JieGou_app2.xsd" />
+  <xs:element name="ZTEST001" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="app2:IMS.INPUT" />
+        <xs:element ref="app3:MAKTTAB" />
+        <xs:element ref="app4:IM" />
+        <xs:element ref="app5:dtIM" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="EXS" xmlns:mstns="EXS" xmlns="EXS" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app2="EXS" xmlns:app1="STRING" xmlns:app4="EX" xmlns:app3="IM">
+  <xs:import namespace="IM" schemaLocation="JieGou_app3.xsd" />
+  <xs:import namespace="EX" schemaLocation="JieGou_app4.xsd" />
+  <xs:import namespace="STRING" schemaLocation="JieGou_app1.xsd" />
+  <xs:element name="EXS.T_TAB">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="app1:MATNR" minOccurs="0" />
+        <xs:element ref="app1:MAKTX" minOccurs="0" />
+        <xs:element ref="app1:BCKC" minOccurs="0" />
+        <xs:element ref="app1:QTCKC" minOccurs="0" />
+        <xs:element ref="app1:BCZJKC" minOccurs="0" />
+        <xs:element ref="app1:QTCZJKC" minOccurs="0" />
+        <xs:element ref="app1:ZBSBCKC" minOccurs="0" />
+        <xs:element ref="app1:SDSBCKC" minOccurs="0" />
+        <xs:element ref="app1:ZBSBZJKC" minOccurs="0" />
+        <xs:element ref="app1:SDSBZJKC" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EXS.Z_RETURN">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="app1:RTYPE" minOccurs="0" />
+        <xs:element ref="app1:RTMSG" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

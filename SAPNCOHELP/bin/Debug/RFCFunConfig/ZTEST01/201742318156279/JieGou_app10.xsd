@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="EX" xmlns:mstns="EX" xmlns="EX" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app10="EX" xmlns:app4="TABLE" xmlns:app5="STRUCTURE" xmlns:app9="IM" xmlns:app6="IMS.HYDLINES" xmlns:app1="STRING" xmlns:app3="EXS.RZHYDLINES" xmlns:app2="EXS" xmlns:app7="IMS" xmlns:app8="IMT">
+  <xs:import namespace="IMT" schemaLocation="JieGou_app8.xsd" />
+  <xs:import namespace="IMS" schemaLocation="JieGou_app7.xsd" />
+  <xs:import namespace="EXS" schemaLocation="JieGou_app2.xsd" />
+  <xs:import namespace="EXS.RZHYDLINES" schemaLocation="JieGou_app3.xsd" />
+  <xs:import namespace="STRING" schemaLocation="JieGou_app1.xsd" />
+  <xs:import namespace="IMS.HYDLINES" schemaLocation="JieGou_app6.xsd" />
+  <xs:import namespace="IM" schemaLocation="JieGou_app9.xsd" />
+  <xs:import namespace="STRUCTURE" schemaLocation="JieGou_app5.xsd" />
+  <xs:import namespace="TABLE" schemaLocation="JieGou_app4.xsd" />
+  <xs:element name="dtIM" msdata:Prefix="传出参数">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Code" type="xs:string" minOccurs="0" />
+        <xs:element name="Name" type="xs:string" minOccurs="0" />
+        <xs:element name="Value" type="xs:string" minOccurs="0" />
+        <xs:element name="remarks" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
