@@ -583,3 +583,19 @@ COUNTER     2
    在 SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
    在 SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
    在 SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+
+**** Log file opened by process 20060 at 2020-03-05 11:19:56 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.21.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: D:\10.CODING\NET\SAPNCOHELP\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug\SAPNCOHELP.exe
+Working directory: D:\10.CODING\NET\SAPNCOHELP\CODING\SAPNCOHELP\SAPNCOHELP\bin\Debug
+Operating system: Windows 10  64-bit 
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 1116
+Hostname: YADI, IP address: 172.18.0.75, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2020-03-05 11:19:56.682 [Thread 1]
+SAP.Middleware.Connector.RfcInvalidStateException: Hard-coded logon parameters not allowed when using a DestinationConfiguration
+   在 SAP.Middleware.Connector.RfcDestinationManager.GetDestination(RfcConfigParameters parameters)

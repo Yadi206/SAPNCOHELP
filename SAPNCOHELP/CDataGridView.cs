@@ -13,7 +13,7 @@ public partial class CDataGridView : DataGridView
 {
     private Array _ShowButtonColumns;   //有按钮的列名称   
     /// <summary>  
-    /// 设置要显示按钮的列  
+    /// 设置要显示按钮的列      
     /// </summary>  
     /// <param name="ShowButtonColumns"></param>  
     public void SetParam(Array ShowButtonColumns)
